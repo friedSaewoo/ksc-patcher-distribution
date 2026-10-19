@@ -1,0 +1,4080 @@
+{
+  "schema": 1,
+  "version": "2026.10.19.2",
+  "minecraft": "1.20.1",
+  "forge": "47.4.0",
+  "notes": "KSC 썬릿밸리 클라이언트: 공식 4.1.5A 모드·리소스 고정 + Emotecraft + Simple Voice Chat 2.6.22. 개인 키/음량/그래픽/마이크 설정은 보존합니다. 서버 음성 모드 적용 및 실제 통화 확인은 별도입니다.",
+  "base_pack": {
+    "name": "Society Sunlit Valley",
+    "version": "4.1.5A",
+    "project_id": 1093382,
+    "file_id": 8980840,
+    "install_url": "https://www.curseforge.com/minecraft/modpacks/society-sunlit-valley/install/8980840",
+    "archive_url": "https://edge.forgecdn.net/files/8980/840/Society-Sunlit-Valley-4.1.5A.zip",
+    "archive_sha256": "6902439ba377c139b712cc42132d73498ff1f5ee77d795d141d255098391d7c9",
+    "anchors": [
+      {
+        "path": "kubejs/startup_scripts/_config.js",
+        "sha256": "fc40dde6098edd7f1deebca47401cf1b5ef97532741f23626e9bc0dd76a211f8"
+      },
+      {
+        "path": "config/ftbquests/quests/data.snbt",
+        "sha256": "46ab7d872c13975fed9e7615c36a5e18f27bf18847d03b3f04d29ca5c3c24b0e"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "mods/AdvancedLootInfo-forge-1.20.1-1.12.0.jar",
+      "size": 663089,
+      "sha256": "6a0b368a0c19476ce1c6e73ecd923855e5ef45834077dea1ae0ca94820ce8eb8",
+      "url": "https://edge.forgecdn.net/files/8168/726/AdvancedLootInfo-forge-1.20.1-1.12.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1205426,
+        "file_id": 8168726
+      }
+    },
+    {
+      "path": "mods/AdvancementPlaques-1.20.1-forge-1.6.7.jar",
+      "size": 208851,
+      "sha256": "9db565fe687590f026ad82b23a995dfe4d8a2e14b221c2574b1db280113b1cd3",
+      "url": "https://edge.forgecdn.net/files/5762/256/AdvancementPlaques-1.20.1-forge-1.6.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 499826,
+        "file_id": 5762256
+      }
+    },
+    {
+      "path": "mods/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+      "size": 51722248,
+      "sha256": "5ad6423578f482606eadb1a1a74cd86d74f2c11ac544d8a9a977fc58c8334b25",
+      "url": "https://edge.forgecdn.net/files/6570/130/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 254284,
+        "file_id": 6570130
+      }
+    },
+    {
+      "path": "mods/Aquaculture-1.20.1-2.5.7.jar",
+      "size": 601839,
+      "sha256": "4c96cf0dd3363a8e15f9ef6b6bfc00ac7d4791e8e9eeebe19b8092c59e800f8f",
+      "url": "https://edge.forgecdn.net/files/7331/172/Aquaculture-1.20.1-2.5.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 60028,
+        "file_id": 7331172
+      }
+    },
+    {
+      "path": "mods/ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+      "size": 528017,
+      "sha256": "01fe17118c249a70a81d3e086ee751661c8eccf39ae1d266d89cb4e2c949568a",
+      "url": "https://edge.forgecdn.net/files/5242/480/ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 682566,
+        "file_id": 5242480
+      }
+    },
+    {
+      "path": "mods/AttributeFix-Forge-1.20.1-21.0.4.jar",
+      "size": 19471,
+      "sha256": "5d8cc8928ce480288d5b504663bb13104df56ac72ce5bf36f2743ec27c701112",
+      "url": "https://edge.forgecdn.net/files/4911/84/AttributeFix-Forge-1.20.1-21.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 280510,
+        "file_id": 4911084
+      }
+    },
+    {
+      "path": "mods/BalloonBox1.20.1(Forge)vs.1.0.3.jar",
+      "size": 95711,
+      "sha256": "c8e818c5698dae385b88b4a4db63a6a4ef5e10bae5900fcb0d9bc00a14eea8e9",
+      "url": "https://edge.forgecdn.net/files/4715/994/BalloonBox1.20.1%28Forge%29vs.1.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 649028,
+        "file_id": 4715994
+      }
+    },
+    {
+      "path": "mods/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+      "size": 98123,
+      "sha256": "3ff02700a0897682a221374a1547e9e739d7b195989f9400d3a1d3b59d8a2a20",
+      "url": "https://edge.forgecdn.net/files/5454/907/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 272515,
+        "file_id": 5454907
+      }
+    },
+    {
+      "path": "mods/BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
+      "size": 26540,
+      "sha256": "71ecffc7c33ae896d9299f392db11bd50027c2dcbd8b16593fa6b6a6a4018502",
+      "url": "https://edge.forgecdn.net/files/4688/940/BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 551894,
+        "file_id": 4688940
+      }
+    },
+    {
+      "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
+      "size": 343962,
+      "sha256": "c31fed2c1a1c0d72d3ef996bb84521b7d6a8fbd3115c89c001f13a7ffd56f64b",
+      "url": "https://edge.forgecdn.net/files/5423/987/Bookshelf-Forge-1.20.1-20.2.13.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 228525,
+        "file_id": 5423987
+      }
+    },
+    {
+      "path": "mods/Botania-1.20.1-454-FORGE.jar",
+      "size": 12211755,
+      "sha256": "4b12d7be6a6bc1e121a222ab8ea4f680306b1aaa2369cccd4a49441e3c2024c5",
+      "url": "https://edge.forgecdn.net/files/8370/23/Botania-1.20.1-454-FORGE.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 225643,
+        "file_id": 8370023
+      }
+    },
+    {
+      "path": "mods/Bountiful-6.0.4+1.20.1-forge.jar",
+      "size": 502662,
+      "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765",
+      "url": "https://edge.forgecdn.net/files/5937/417/Bountiful-6.0.4+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 309516,
+        "file_id": 5937417
+      }
+    },
+    {
+      "path": "mods/Chimes-v2.1.1-1.20.1-Forge.jar",
+      "size": 12479806,
+      "sha256": "7c2f03be44170898ba1013c5eb1e9ad1d199efa2d6877bfd396be0c3736fae59",
+      "url": "https://edge.forgecdn.net/files/7529/12/Chimes-v2.1.1-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 350464,
+        "file_id": 7529012
+      }
+    },
+    {
+      "path": "mods/Chunky-1.3.146.jar",
+      "size": 341451,
+      "sha256": "996a3c9b53e6c0e0850fb9e78d3546d2c37a1b789ddaf529b17e4fe62ab23141",
+      "url": "https://edge.forgecdn.net/files/5320/28/Chunky-1.3.146.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 485681,
+        "file_id": 5320028
+      }
+    },
+    {
+      "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "size": 20299,
+      "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
+      "url": "https://edge.forgecdn.net/files/5278/538/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 256717,
+        "file_id": 5278538
+      }
+    },
+    {
+      "path": "mods/ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+      "size": 42866,
+      "sha256": "941bad1016997891fd23634397fa720a63d520c4dedbeea410270c2c039a883b",
+      "url": "https://edge.forgecdn.net/files/6060/24/ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 930131,
+        "file_id": 6060024
+      }
+    },
+    {
+      "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "size": 115280,
+      "sha256": "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944",
+      "url": "https://edge.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 250398,
+        "file_id": 4646682
+      }
+    },
+    {
+      "path": "mods/CrabbersDelight-1.20.1-1.1.7d.jar",
+      "size": 376502,
+      "sha256": "11965c6d70239f74934ebdb743a8585852f84b5e8e9e89efa8aee6327833160b",
+      "url": "https://edge.forgecdn.net/files/5961/411/CrabbersDelight-1.20.1-1.1.7d.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 892827,
+        "file_id": 5961411
+      }
+    },
+    {
+      "path": "mods/CrashAssistant-forge-1.19-1.20.1-1.11.10.jar",
+      "size": 3181623,
+      "sha256": "839c4b342c125a7d7f603ba6965ff7b0a5283a1bb82787331a7bcca7d3b34dda",
+      "url": "https://edge.forgecdn.net/files/8262/170/CrashAssistant-forge-1.19-1.20.1-1.11.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1154099,
+        "file_id": 8262170
+      }
+    },
+    {
+      "path": "mods/CreateEntityControl-0.3.8.4-6.0-forge-1.20.1.jar",
+      "size": 370450,
+      "sha256": "e76b41772f3dfd097f5c6dda2129d2a04f91ab3e1f5c606d8e9776d14a236100",
+      "url": "https://edge.forgecdn.net/files/7799/810/CreateEntityControl-0.3.8.4-6.0-forge-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1256076,
+        "file_id": 7799810
+      }
+    },
+    {
+      "path": "mods/CreateNumismatics-1.1.0+forge-mc1.20.1.jar",
+      "size": 1927968,
+      "sha256": "f37d91367b2adecdae67cc27b15fa902584d1241607990809d6388d3c59014fd",
+      "url": "https://edge.forgecdn.net/files/8749/545/CreateNumismatics-1.1.0+forge-mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 889722,
+        "file_id": 8749545
+      }
+    },
+    {
+      "path": "mods/CreateSchematicChecker-0.21.18-6.0-forge-1.20.1.jar",
+      "size": 231988,
+      "sha256": "37a1c08963b964fe2c2ba6503f55f15a540176f3feb2d66ead1e48d90487e352",
+      "url": "https://edge.forgecdn.net/files/7797/920/CreateSchematicChecker-0.21.18-6.0-forge-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1357430,
+        "file_id": 7797920
+      }
+    },
+    {
+      "path": "mods/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+      "size": 1158417,
+      "sha256": "3d2271f7d9d2e32fca46d19f3b6ab4372d30e0ea3eb26c809c23366e8d503e16",
+      "url": "https://edge.forgecdn.net/files/6383/884/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 257814,
+        "file_id": 6383884
+      }
+    },
+    {
+      "path": "mods/Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+      "size": 112171,
+      "sha256": "fcbfd48ac170e044099492fb075a57039d806258559c1fb871925d40d1c6e396",
+      "url": "https://edge.forgecdn.net/files/7256/555/Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1203668,
+        "file_id": 7256555
+      }
+    },
+    {
+      "path": "mods/DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+      "size": 182476,
+      "sha256": "03ae31ac7f33a8c396560bf00188ec3fe78febf77d6930dd814cf18a14a29477",
+      "url": "https://edge.forgecdn.net/files/5918/173/DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 458048,
+        "file_id": 5918173
+      }
+    },
+    {
+      "path": "mods/DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+      "size": 173567,
+      "sha256": "683d681b285167193fc6017a422c3cf08332993dda1a92f64088ca4fa9a8597c",
+      "url": "https://edge.forgecdn.net/files/5918/171/DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 969422,
+        "file_id": 5918171
+      }
+    },
+    {
+      "path": "mods/DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar",
+      "size": 14210380,
+      "sha256": "b38cd5118887acc351b4944b6ea6affeaab91ab93c44ec2df537d91d902c5e78",
+      "url": "https://edge.forgecdn.net/files/7445/417/DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 380617,
+        "file_id": 7445417
+      }
+    },
+    {
+      "path": "mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "size": 141744,
+      "sha256": "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9",
+      "url": "https://edge.forgecdn.net/files/5156/621/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 682567,
+        "file_id": 5156621
+      }
+    },
+    {
+      "path": "mods/Emojiful-Forge-1.20.1-4.2.0.jar",
+      "size": 262412,
+      "sha256": "5c9a41d6a1744bf65695dbe3473c0f5e60f8616b146afd6353f802b25454efe7",
+      "url": "https://edge.forgecdn.net/files/4672/310/Emojiful-Forge-1.20.1-4.2.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 284324,
+        "file_id": 4672310
+      }
+    },
+    {
+      "path": "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+      "size": 69476,
+      "sha256": "d8501371240082c3436c03380f7a59820fd981e9c5d9fb2978a222ea114b23ae",
+      "url": "https://edge.forgecdn.net/files/5855/251/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 250419,
+        "file_id": 5855251
+      }
+    },
+    {
+      "path": "mods/Etcetera-1.20.1-1.1.3-Forge.jar",
+      "size": 1720394,
+      "sha256": "0634364ea818abbd8203401a0cfe4de64fd0d17bac129b2a007dc8f45696e877",
+      "url": "https://edge.forgecdn.net/files/4661/335/Etcetera-1.20.1-1.1.3-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 891054,
+        "file_id": 4661335
+      }
+    },
+    {
+      "path": "mods/ExtremeSoundMuffler-3.48-forge-1.20.1.jar",
+      "size": 265906,
+      "sha256": "31ba64e012327209ede68515afbd92bb85e3cba652a61b850c568fbf805c3d53",
+      "url": "https://edge.forgecdn.net/files/5498/979/ExtremeSoundMuffler-3.48-forge-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 363363,
+        "file_id": 5498979
+      }
+    },
+    {
+      "path": "mods/FarmersDelight-1.20.1-1.3.2.jar",
+      "size": 3313327,
+      "sha256": "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7",
+      "url": "https://edge.forgecdn.net/files/8083/474/FarmersDelight-1.20.1-1.3.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 398521,
+        "file_id": 8083474
+      }
+    },
+    {
+      "path": "mods/FastFurnace-1.20.1-8.0.2.jar",
+      "size": 6170,
+      "sha256": "970c11c090e7a364e2e006aabb5e573f79901e710e97195334ee5802317776e8",
+      "url": "https://edge.forgecdn.net/files/5181/98/FastFurnace-1.20.1-8.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 299540,
+        "file_id": 5181098
+      }
+    },
+    {
+      "path": "mods/FastLeafDecay-32.jar",
+      "size": 9835,
+      "sha256": "ce48db06bfb5830c147969793771a8f8b5a5774b182543b906bc439efd4e9469",
+      "url": "https://edge.forgecdn.net/files/5375/681/FastLeafDecay-32.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 230976,
+        "file_id": 5375681
+      }
+    },
+    {
+      "path": "mods/FastSuite-1.20.1-5.1.2.jar",
+      "size": 26600,
+      "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e",
+      "url": "https://edge.forgecdn.net/files/7527/943/FastSuite-1.20.1-5.1.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 475117,
+        "file_id": 7527943
+      }
+    },
+    {
+      "path": "mods/FasterLadderClimbing-1.20.1-0.2.10.jar",
+      "size": 7457,
+      "sha256": "8e149947ddbe3216bb582771a0353ebb54b1b9b21f000abd7bd18893786b754f",
+      "url": "https://edge.forgecdn.net/files/4819/758/FasterLadderClimbing-1.20.1-0.2.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 258881,
+        "file_id": 4819758
+      }
+    },
+    {
+      "path": "mods/GeckoJS-2001forge-1.5.2.jar",
+      "size": 153436,
+      "sha256": "8c49af1e3562b2a8df07b35815f549c973ddadae20cbe4f7f018f447c978a5f2",
+      "url": "https://edge.forgecdn.net/files/6349/198/GeckoJS-2001forge-1.5.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 977922,
+        "file_id": 6349198
+      }
+    },
+    {
+      "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "size": 87550,
+      "sha256": "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61",
+      "url": "https://edge.forgecdn.net/files/5787/839/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 955399,
+        "file_id": 5787839
+      }
+    },
+    {
+      "path": "mods/HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar",
+      "size": 4046100,
+      "sha256": "65dfb8dadcbfadc6bac986e2cb391741b0b559569b3c617bd8cd69dc276646f4",
+      "url": "https://edge.forgecdn.net/files/6631/774/HopoBetterMineshaft-%5B1.20.1-1.20.4%5D-1.2.2d.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 623723,
+        "file_id": 6631774
+      }
+    },
+    {
+      "path": "mods/Iceberg-1.20.1-forge-1.1.25.jar",
+      "size": 134551,
+      "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3",
+      "url": "https://edge.forgecdn.net/files/5838/149/Iceberg-1.20.1-forge-1.1.25.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 520110,
+        "file_id": 5838149
+      }
+    },
+    {
+      "path": "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "size": 532063,
+      "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
+      "url": "https://edge.forgecdn.net/files/8348/481/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 686911,
+        "file_id": 8348481
+      }
+    },
+    {
+      "path": "mods/Jade-1.20.1-Forge-11.13.2.jar",
+      "size": 552486,
+      "sha256": "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5",
+      "url": "https://edge.forgecdn.net/files/6855/440/Jade-1.20.1-Forge-11.13.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 324717,
+        "file_id": 6855440
+      }
+    },
+    {
+      "path": "mods/JadeAddons-1.20.1-Forge-5.5.0.jar",
+      "size": 91771,
+      "sha256": "3fa00b2ee33ee154ef155997fc7e12fb0e4d7f4f06d1bfd47dd6ee3c6a1549d4",
+      "url": "https://edge.forgecdn.net/files/6274/674/JadeAddons-1.20.1-Forge-5.5.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 583345,
+        "file_id": 6274674
+      }
+    },
+    {
+      "path": "mods/Kambrik-6.1.1+1.20.1-forge.jar",
+      "size": 325546,
+      "sha256": "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e",
+      "url": "https://edge.forgecdn.net/files/4654/401/Kambrik-6.1.1+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 455585,
+        "file_id": 4654401
+      }
+    },
+    {
+      "path": "mods/Kiwi-1.20.1-Forge-11.9.2.jar",
+      "size": 1661318,
+      "sha256": "f423d37c2c7e209c7775e487c550561a8c6e8df061a4cb6e63ff781660a8d4ba",
+      "url": "https://edge.forgecdn.net/files/6907/20/Kiwi-1.20.1-Forge-11.9.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 303657,
+        "file_id": 6907020
+      }
+    },
+    {
+      "path": "mods/LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+      "size": 50042,
+      "sha256": "e621c22e7107dada09298dffc04dc56144ac08e6e41e8b41c200dc939c662ac5",
+      "url": "https://edge.forgecdn.net/files/4613/293/LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 686435,
+        "file_id": 4613293
+      }
+    },
+    {
+      "path": "mods/LittleTractor-1.20.1-1.2.jar",
+      "size": 172632,
+      "sha256": "f18074ab30579951c13a4f52e08069bde35939723166aa897564e7ed522d1045",
+      "url": "https://edge.forgecdn.net/files/6960/912/LittleTractor-1.20.1-1.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1029980,
+        "file_id": 6960912
+      }
+    },
+    {
+      "path": "mods/Log-Begone-Forge-1.20.1-1.0.8.jar",
+      "size": 58508,
+      "sha256": "7ac59d4a83c7841f46d1182b626f7b0d229b9159b8ec1a63d7a7dd40fc817adc",
+      "url": "https://edge.forgecdn.net/files/4583/425/Log-Begone-Forge-1.20.1-1.0.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 623560,
+        "file_id": 4583425
+      }
+    },
+    {
+      "path": "mods/Longwings-v0.9.5-1.20.1-Forge.jar",
+      "size": 1924774,
+      "sha256": "ee85f0836a49cb11bf4bed0bc531a2e8f4123e30b5978d661c974d1c0a022185",
+      "url": "https://edge.forgecdn.net/files/7980/33/Longwings-v0.9.5-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1277025,
+        "file_id": 7980033
+      }
+    },
+    {
+      "path": "mods/MCT-RS-Mixin-1.20.1-1.1.0-b451-release.jar",
+      "size": 230755,
+      "sha256": "b9d242a291bd74f77938743c574edfd4ed312f4dc42ab6f151523df134c9347e",
+      "url": "https://edge.forgecdn.net/files/8862/850/MCT-RS-Mixin-1.20.1-1.1.0-b451-release.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1431536,
+        "file_id": 8862850
+      }
+    },
+    {
+      "path": "mods/MaxEnchantX-1.20.X-1.3-Forge.jar",
+      "size": 32212,
+      "sha256": "3d43e1461047054f1ee1c3f3a5ffae43c4c422ea435e092464682d71efa2bc84",
+      "url": "https://edge.forgecdn.net/files/4740/32/MaxEnchantX-1.20.X-1.3-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 664443,
+        "file_id": 4740032
+      }
+    },
+    {
+      "path": "mods/MobLassos-v8.0.1-1.20.1-Forge.jar",
+      "size": 114782,
+      "sha256": "c94ce226c2bab2ece2e53a2c4f2bef0868deca29ac8a86e64b291b4fdc12eebf",
+      "url": "https://edge.forgecdn.net/files/5078/298/MobLassos-v8.0.1-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 852670,
+        "file_id": 5078298
+      }
+    },
+    {
+      "path": "mods/MoogsVoyagerStructures-1.20-5.0.4.jar",
+      "size": 2661209,
+      "sha256": "7b9f7575a3781261dbb83ab1b07252a7a8dfe7f6cd5123923934dd7a396ef40d",
+      "url": "https://edge.forgecdn.net/files/7517/593/MoogsVoyagerStructures-1.20-5.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 656977,
+        "file_id": 7517593
+      }
+    },
+    {
+      "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "size": 76237,
+      "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
+      "url": "https://edge.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 60089,
+        "file_id": 5338457
+      }
+    },
+    {
+      "path": "mods/MyServerIsCompatible-1.20-1.0.jar",
+      "size": 3482,
+      "sha256": "74bd64fe43eefa4a81006184b7558ceff20f6579597c0c35baeb44e70cfaaf51",
+      "url": "https://edge.forgecdn.net/files/4580/511/MyServerIsCompatible-1.20-1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 492574,
+        "file_id": 4580511
+      }
+    },
+    {
+      "path": "mods/NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "size": 215119,
+      "sha256": "28e05589c9e4021d9504c9eea387ed4e80adcdcd0626a9623a53754cfa69f7bf",
+      "url": "https://edge.forgecdn.net/files/4712/189/NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 252848,
+        "file_id": 4712189
+      }
+    },
+    {
+      "path": "mods/NeoAuth-1.20.1-1.0.3.jar",
+      "size": 50687,
+      "sha256": "4640d4de8a5976d62bdc1a5cad74a721d8fdb3023f2b0c85aab522d7d908a2b6",
+      "url": "https://edge.forgecdn.net/files/6003/74/NeoAuth-1.20.1-1.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1140741,
+        "file_id": 6003074
+      }
+    },
+    {
+      "path": "mods/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+      "size": 272740,
+      "sha256": "ef7fa5096dfd492c3d3ae7228888ca4b92ce07d9b8e302297ceb2ceb1f8d238c",
+      "url": "https://edge.forgecdn.net/files/4610/474/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 634062,
+        "file_id": 4610474
+      }
+    },
+    {
+      "path": "mods/NoChatRestrictions-Forge-MC1.20.1-v1.0.0.jar",
+      "size": 9676,
+      "sha256": "98c335dc6850b4a0b1ddd7b8dea2712075333044aa60a84d787ee0d8babc360e",
+      "url": "https://edge.forgecdn.net/files/7538/450/NoChatRestrictions-Forge-MC1.20.1-v1.0.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1442925,
+        "file_id": 7538450
+      }
+    },
+    {
+      "path": "mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+      "size": 21667,
+      "sha256": "8f05afb56310b21e91d2f1d1200a9c0d98a34a9689b9b6288a6507c0498b299d",
+      "url": "https://edge.forgecdn.net/files/5760/231/Not%20Enough%20Recipe%20Book-FORGE-0.4.1+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 738663,
+        "file_id": 5760231
+      }
+    },
+    {
+      "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+      "size": 424035,
+      "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047",
+      "url": "https://edge.forgecdn.net/files/6274/623/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 916747,
+        "file_id": 6274623
+      }
+    },
+    {
+      "path": "mods/Oreganized 1.20.1-4.3.2.jar",
+      "size": 3654692,
+      "sha256": "7caf4fb46a0780c4135594080f9376163103739b4ea784e399c8037d76285326",
+      "url": "https://edge.forgecdn.net/files/7707/202/Oreganized%201.20.1-4.3.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 769203,
+        "file_id": 7707202
+      }
+    },
+    {
+      "path": "mods/Paraglider-forge-20.1.3.jar",
+      "size": 589055,
+      "sha256": "3528e4d424682a415ae97b9597e5ed0567e5a194b4aeb30ae364e962da43b36a",
+      "url": "https://edge.forgecdn.net/files/5046/69/Paraglider-forge-20.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 289240,
+        "file_id": 5046069
+      }
+    },
+    {
+      "path": "mods/PassableFoliage-1.20.1-forge-8.2.1.jar",
+      "size": 30618,
+      "sha256": "15c215f1782c21f1ee1295eae3a5e96386eefc790247f5f32bd74893b967ec14",
+      "url": "https://edge.forgecdn.net/files/4869/702/PassableFoliage-1.20.1-forge-8.2.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 379887,
+        "file_id": 4869702
+      }
+    },
+    {
+      "path": "mods/Patchouli-1.20.1-85-FORGE.jar",
+      "size": 642732,
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+      "url": "https://edge.forgecdn.net/files/7731/17/Patchouli-1.20.1-85-FORGE.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 306770,
+        "file_id": 7731017
+      }
+    },
+    {
+      "path": "mods/Placebo-1.20.1-8.6.3.jar",
+      "size": 282474,
+      "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571",
+      "url": "https://edge.forgecdn.net/files/6274/231/Placebo-1.20.1-8.6.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 283644,
+        "file_id": 6274231
+      }
+    },
+    {
+      "path": "mods/Platform-forge-1.20.1-1.3.4.jar",
+      "size": 512461,
+      "sha256": "e35c013fb8cbd62900ccdf0872fc6c14b9858a711f6b2279c479f4b4f668d870",
+      "url": "https://edge.forgecdn.net/files/8214/829/Platform-forge-1.20.1-1.3.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 997634,
+        "file_id": 8214829
+      }
+    },
+    {
+      "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "size": 1342987,
+      "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
+      "url": "https://edge.forgecdn.net/files/6918/565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 495476,
+        "file_id": 6918565
+      }
+    },
+    {
+      "path": "mods/Quark-4.0-462.jar",
+      "size": 14935230,
+      "sha256": "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478",
+      "url": "https://edge.forgecdn.net/files/6427/817/Quark-4.0-462.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 243121,
+        "file_id": 6427817
+      }
+    },
+    {
+      "path": "mods/RSInfinityBooster-1.20.1-1.0+41.jar",
+      "size": 33622,
+      "sha256": "af6bd5436b8ed88681a9e85973abf99ba9a640b4d2e71da962aa73779ecf7114",
+      "url": "https://edge.forgecdn.net/files/5814/102/RSInfinityBooster-1.20.1-1.0+41.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 446870,
+        "file_id": 5814102
+      }
+    },
+    {
+      "path": "mods/ResourcePackOverrides-v8.0.3-1.20.1-Forge.jar",
+      "size": 84339,
+      "sha256": "fb4fa22fdc88524c93ced408a4913283e4fc07349e9ebae3dd5ea9f7599e66f6",
+      "url": "https://edge.forgecdn.net/files/5101/541/ResourcePackOverrides-v8.0.3-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 832644,
+        "file_id": 5101541
+      }
+    },
+    {
+      "path": "mods/Ribbits-1.20.1-Forge-3.0.5.jar",
+      "size": 2223589,
+      "sha256": "e04aa665df7e96844fe8833f29cc343feefac8ad7b949399d7b4a60475123e2b",
+      "url": "https://edge.forgecdn.net/files/7354/928/Ribbits-1.20.1-Forge-3.0.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 622967,
+        "file_id": 7354928
+      }
+    },
+    {
+      "path": "mods/SVDialog-0.6.jar",
+      "size": 1246322,
+      "sha256": "f215b50e090c7b78b0aedd07709cc5677e77dbdafb688d06ce8b9ac3465b89b4",
+      "url": "https://edge.forgecdn.net/files/8579/840/SVDialog-0.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1441305,
+        "file_id": 8579840
+      }
+    },
+    {
+      "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+      "size": 77732,
+      "sha256": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
+      "url": "https://edge.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 858542,
+        "file_id": 5284015
+      }
+    },
+    {
+      "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+      "size": 160887,
+      "sha256": "c4f1b6bcbd2c4fd8c54866cc217f455d2e8262e35ac218f8fb628c79bc76ff8e",
+      "url": "https://edge.forgecdn.net/files/6398/227/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 291874,
+        "file_id": 6398227
+      }
+    },
+    {
+      "path": "mods/SewingKit-1.20.1-1.8.1.jar",
+      "size": 210967,
+      "sha256": "2c1190712b37c5ac74e5263c2a753746d6f3be80520080a6e95784c1f279289b",
+      "url": "https://edge.forgecdn.net/files/5188/41/SewingKit-1.20.1-1.8.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 411896,
+        "file_id": 5188041
+      }
+    },
+    {
+      "path": "mods/ShippingBin-forge-1.20.1-4.jar",
+      "size": 164855,
+      "sha256": "b44b2d73840a1e94ef6e75763548f473903db2294f725dabb5562a5c039b2444",
+      "url": "https://edge.forgecdn.net/files/5818/385/ShippingBin-forge-1.20.1-4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1058468,
+        "file_id": 5818385
+      }
+    },
+    {
+      "path": "mods/ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
+      "size": 253861,
+      "sha256": "205341681dfbc9d9022f9ed5b3633fb50a10388eeafed154971d48daf35c9003",
+      "url": "https://edge.forgecdn.net/files/7249/331/ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 243190,
+        "file_id": 7249331
+      }
+    },
+    {
+      "path": "mods/SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+      "size": 1198997,
+      "sha256": "15dd4d346be150939ffe35d534a9eabfe3078f1499dc2d2d81154462f725e9eb",
+      "url": "https://edge.forgecdn.net/files/4964/550/SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 334853,
+        "file_id": 4964550
+      }
+    },
+    {
+      "path": "mods/SmartBrainLib-forge-1.20.1-1.15.jar",
+      "size": 362338,
+      "sha256": "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d",
+      "url": "https://edge.forgecdn.net/files/5654/964/SmartBrainLib-forge-1.20.1-1.15.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 661293,
+        "file_id": 5654964
+      }
+    },
+    {
+      "path": "mods/SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+      "size": 346619,
+      "sha256": "969b0e396dc1d5f2fd3783b3638fc49230fe143ea5329584b27e558a77a20dac",
+      "url": "https://edge.forgecdn.net/files/7472/648/SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 308663,
+        "file_id": 7472648
+      }
+    },
+    {
+      "path": "mods/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
+      "size": 285625,
+      "sha256": "adbaba6124ece47ef98bf60eeba0c87c89cdbb5cfd75ebf14f24967fcc622b98",
+      "url": "https://edge.forgecdn.net/files/5816/336/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 878047,
+        "file_id": 5816336
+      }
+    },
+    {
+      "path": "mods/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+      "size": 16819720,
+      "sha256": "da82605f01a4a43ea0907467583704253c2e718392d44be1cd7b9761edcb0da1",
+      "url": "https://edge.forgecdn.net/files/7758/640/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 688231,
+        "file_id": 7758640
+      }
+    },
+    {
+      "path": "mods/StrawStatues-v8.0.3-1.20.1-Forge.jar",
+      "size": 572195,
+      "sha256": "fbd2be125b2f76d83bf0434aa2ea404918ff0bf8ea8c6ca4ce32f563237c80d4",
+      "url": "https://edge.forgecdn.net/files/5207/884/StrawStatues-v8.0.3-1.20.1-Forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 682564,
+        "file_id": 5207884
+      }
+    },
+    {
+      "path": "mods/Tips-Forge-1.20.1-12.1.9.jar",
+      "size": 127186,
+      "sha256": "f7021a7b68ac563210ff9e8fa33cf3b1828fa55f2dae5c769f48b1cb8feb7e80",
+      "url": "https://edge.forgecdn.net/files/7613/269/Tips-Forge-1.20.1-12.1.9.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 306549,
+        "file_id": 7613269
+      }
+    },
+    {
+      "path": "mods/ToastControl-1.20.1-8.0.3.jar",
+      "size": 26957,
+      "sha256": "e9923900cabbc12ffde7cc36113936f24b773bb33b22c19e4109cca52fc55ad6",
+      "url": "https://edge.forgecdn.net/files/4711/316/ToastControl-1.20.1-8.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 271740,
+        "file_id": 4711316
+      }
+    },
+    {
+      "path": "mods/ToolBelt-1.20.1-1.20.02.jar",
+      "size": 253567,
+      "sha256": "717cad5de08223433f9f5ae467cf731288e69564eb7c4c19bcc2b49bc9191c3c",
+      "url": "https://edge.forgecdn.net/files/5929/61/ToolBelt-1.20.1-1.20.02.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 260262,
+        "file_id": 5929061
+      }
+    },
+    {
+      "path": "mods/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+      "size": 517225,
+      "sha256": "219fbe5bf8d862dc7b524ca5a0151f66bba4d53a01010858e136a9e8c4d55d4f",
+      "url": "https://edge.forgecdn.net/files/5565/422/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 421377,
+        "file_id": 5565422
+      }
+    },
+    {
+      "path": "mods/Trials-2.3.3.jar",
+      "size": 8337744,
+      "sha256": "fb120d2423189917f20f8755a497ac4b508a273412098bb3010ba94761bdbb05",
+      "url": "https://edge.forgecdn.net/files/7266/979/Trials-2.3.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1392862,
+        "file_id": 7266979
+      }
+    },
+    {
+      "path": "mods/Twigs-1.20.1-3.1.0.jar",
+      "size": 2766476,
+      "sha256": "5adc1265827dcc0534940523a57366e9d58ba72800021b667469e02d48cf6640",
+      "url": "https://edge.forgecdn.net/files/4998/195/Twigs-1.20.1-3.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 496913,
+        "file_id": 4998195
+      }
+    },
+    {
+      "path": "mods/VanillaBackport-forge-1.20.1-1.1.7.10.jar",
+      "size": 56051142,
+      "sha256": "157f95106c7f00f92b05c72f25e2d87e2ffbef04137e9ea609fc03838bb39e2d",
+      "url": "https://edge.forgecdn.net/files/8229/712/VanillaBackport-forge-1.20.1-1.1.7.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 417430,
+        "file_id": 8229712
+      }
+    },
+    {
+      "path": "mods/VeggiesDelight-1.20.1-1.9.3.jar",
+      "size": 598808,
+      "sha256": "f4b01c2afe0c662b9fbeef2b8864ec72084bbe93b33fed49515f865b121f4998",
+      "url": "https://edge.forgecdn.net/files/8485/290/VeggiesDelight-1.20.1-1.9.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1082807,
+        "file_id": 8485290
+      }
+    },
+    {
+      "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+      "size": 370524,
+      "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1",
+      "url": "https://edge.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 421850,
+        "file_id": 5769971
+      }
+    },
+    {
+      "path": "mods/Zeta-1.0-31.jar",
+      "size": 1006518,
+      "sha256": "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e",
+      "url": "https://edge.forgecdn.net/files/7335/229/Zeta-1.0-31.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 968868,
+        "file_id": 7335229
+      }
+    },
+    {
+      "path": "mods/additional_attributes-1.20.1-1.3.6-all.jar",
+      "size": 252410,
+      "sha256": "10b3b578555b0f2e3395ab1b32129a952b0e2f21ff9483e3b180e9ae3b89a1bf",
+      "url": "https://edge.forgecdn.net/files/6782/138/additional_attributes-1.20.1-1.3.6-all.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 986624,
+        "file_id": 6782138
+      }
+    },
+    {
+      "path": "mods/alltheleaks-1.1.1+1.20.1-forge.jar",
+      "size": 1187126,
+      "sha256": "7b8e945da294b745e6aed9f88f28e232a767e032d7c2b8137a8ef36421d9fb33",
+      "url": "https://edge.forgecdn.net/files/7235/989/alltheleaks-1.1.1+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1091339,
+        "file_id": 7235989
+      }
+    },
+    {
+      "path": "mods/alternate_current-mc1.20-1.7.0.jar",
+      "size": 36703,
+      "sha256": "9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565",
+      "url": "https://edge.forgecdn.net/files/4721/662/alternate_current-mc1.20-1.7.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 548115,
+        "file_id": 4721662
+      }
+    },
+    {
+      "path": "mods/amendments-1.20-2.2.5.jar",
+      "size": 1301022,
+      "sha256": "2ecb189991320d789cd2c539d770b5b52ad71eff93d186297d10853bcb6ee00a",
+      "url": "https://edge.forgecdn.net/files/7470/401/amendments-1.20-2.2.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 896746,
+        "file_id": 7470401
+      }
+    },
+    {
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "size": 47428,
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+      "url": "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 248787,
+        "file_id": 4770828
+      }
+    },
+    {
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "size": 580602,
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 419699,
+        "file_id": 5137938
+      }
+    },
+    {
+      "path": "mods/atmospheric-1.20.1-6.1.1.jar",
+      "size": 5213524,
+      "sha256": "a844bc2dcba6381051c64e04ea6388465ce97c53f1410b59f5dd4a91f5ea476f",
+      "url": "https://edge.forgecdn.net/files/6393/127/atmospheric-1.20.1-6.1.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 362393,
+        "file_id": 6393127
+      }
+    },
+    {
+      "path": "mods/automobility-0.4.2+1.20.1-forge.jar",
+      "size": 1054094,
+      "sha256": "4ea3933ee2a9ffed5b739bbbf8a8c974737fd59cb6517c61c54b3eae9465ff54",
+      "url": "https://edge.forgecdn.net/files/4613/497/automobility-0.4.2+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 658286,
+        "file_id": 4613497
+      }
+    },
+    {
+      "path": "mods/autumnity-1.20.1-5.0.2.jar",
+      "size": 1221037,
+      "sha256": "01e6b9b3020a045fffd7113ba35fdad8d5411079c1b3a8a8944ff0755a275952",
+      "url": "https://edge.forgecdn.net/files/6151/402/autumnity-1.20.1-5.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 365045,
+        "file_id": 6151402
+      }
+    },
+    {
+      "path": "mods/badpackets-forge-0.4.3.jar",
+      "size": 27919,
+      "sha256": "b621a8e31727324a6010adbfb84fd4dbb78b3c7d87e5a9aebfb4e3223448f1e3",
+      "url": "https://edge.forgecdn.net/files/4784/395/badpackets-forge-0.4.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 615134,
+        "file_id": 4784395
+      }
+    },
+    {
+      "path": "mods/balm-forge-1.20.1-7.3.38-all.jar",
+      "size": 591397,
+      "sha256": "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08",
+      "url": "https://edge.forgecdn.net/files/7420/617/balm-forge-1.20.1-7.3.38-all.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 531761,
+        "file_id": 7420617
+      }
+    },
+    {
+      "path": "mods/beautify-2.0.2.jar",
+      "size": 838292,
+      "sha256": "d14eca2341539a9186599e335c72315a4210f90f8e2d8007200c1da70b27bf15",
+      "url": "https://edge.forgecdn.net/files/4781/709/beautify-2.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 633252,
+        "file_id": 4781709
+      }
+    },
+    {
+      "path": "mods/betteradvancedtooltips-1.20.1-1.2.1.jar",
+      "size": 49615,
+      "sha256": "43843aa24d33256dcef6ca38868742571acb04eb69efba92d925827510ac4566",
+      "url": "https://edge.forgecdn.net/files/8167/579/betteradvancedtooltips-1.20.1-1.2.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1547351,
+        "file_id": 8167579
+      }
+    },
+    {
+      "path": "mods/betterarcheology-1.2.1-1.20.1.jar",
+      "size": 982838,
+      "sha256": "4180f72ec4b69690ec160ac50e48c087f0fe7c98681dcd1f70d82ed5cbfeec9e",
+      "url": "https://edge.forgecdn.net/files/5693/368/betterarcheology-1.2.1-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 835687,
+        "file_id": 5693368
+      }
+    },
+    {
+      "path": "mods/biomespawnpoint-1.20.1-2.3.jar",
+      "size": 36804,
+      "sha256": "f552dd8fb1c910ae4d94c92a7fc68cc1c70ee8c8486b0241ebac608838d0ff4b",
+      "url": "https://edge.forgecdn.net/files/5572/902/biomespawnpoint-1.20.1-2.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 695238,
+        "file_id": 5572902
+      }
+    },
+    {
+      "path": "mods/blueprint-1.20.1-7.1.3.jar",
+      "size": 1151213,
+      "sha256": "f21d3560ae3e5ee8c0482c43bcd78ea9909a23e5b2a38478b0b25f3d99270808",
+      "url": "https://edge.forgecdn.net/files/6408/581/blueprint-1.20.1-7.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 382216,
+        "file_id": 6408581
+      }
+    },
+    {
+      "path": "mods/bobby-1.20.1_v5.0.1.jar",
+      "size": 86682,
+      "sha256": "4eb8296c24fa88cfc27145dc006b8acdea75d5f5175dd8b49dc5ef9709e66ee4",
+      "url": "https://edge.forgecdn.net/files/4650/227/bobby-1.20.1_v5.0.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 883502,
+        "file_id": 4650227
+      }
+    },
+    {
+      "path": "mods/botania_seeds-1.1.1.jar",
+      "size": 129070,
+      "sha256": "589d6a3159906ecd1a76ba5b80892d17aba06f34982ae728989775e4f3f09ab7",
+      "url": "https://edge.forgecdn.net/files/6353/856/botania_seeds-1.1.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1197807,
+        "file_id": 6353856
+      }
+    },
+    {
+      "path": "mods/bots_lib-4.1.jar",
+      "size": 24222,
+      "sha256": "51ec8fd8c89a6d102839d0a48ce8c50b2b9adde7a85d86c4306599b596a00c2d",
+      "url": "https://edge.forgecdn.net/files/6607/248/bots_lib-4.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1062753,
+        "file_id": 6607248
+      }
+    },
+    {
+      "path": "mods/buildinggadgets2-1.0.7.jar",
+      "size": 3832269,
+      "sha256": "81e4bf64a0d1136de899d68f2693f0bc6439c520884bbb39c5c2a2fa82056f12",
+      "url": "https://edge.forgecdn.net/files/5144/161/buildinggadgets2-1.0.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 298187,
+        "file_id": 5144161
+      }
+    },
+    {
+      "path": "mods/buzzier_bees-1.20.1-6.0.1.jar",
+      "size": 558630,
+      "sha256": "65ce939890623fa6c077e0260c83f1d58ec75a35a51282b49821a4cef1512434",
+      "url": "https://edge.forgecdn.net/files/6151/411/buzzier_bees-1.20.1-6.0.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 355458,
+        "file_id": 6151411
+      }
+    },
+    {
+      "path": "mods/bwncr-forge-1.20.1-3.17.2.jar",
+      "size": 28225,
+      "sha256": "d6c120a438f0b347f78d21758d0e05459e09ccd87bb9cae9ee1955ab2750afd9",
+      "url": "https://edge.forgecdn.net/files/5969/233/bwncr-forge-1.20.1-3.17.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 261251,
+        "file_id": 5969233
+      }
+    },
+    {
+      "path": "mods/caelus-forge-3.2.0+1.20.1.jar",
+      "size": 40125,
+      "sha256": "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368",
+      "url": "https://edge.forgecdn.net/files/5281/700/caelus-forge-3.2.0+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 308989,
+        "file_id": 5281700
+      }
+    },
+    {
+      "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+      "size": 439457,
+      "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+      "url": "https://edge.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 274259,
+        "file_id": 4882500
+      }
+    },
+    {
+      "path": "mods/certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar",
+      "size": 1220866,
+      "sha256": "a678f1424e67610bace77d85f18f362e8f273e0179494cba87070ef00acecfe3",
+      "url": "https://edge.forgecdn.net/files/8367/713/certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1372051,
+        "file_id": 8367713
+      }
+    },
+    {
+      "path": "mods/chat_heads-0.13.7-forge-1.20.jar",
+      "size": 265135,
+      "sha256": "8d90c9acd7d5e81d65306c28431efe4eb82df2feee6ae933581ab746de0e4656",
+      "url": "https://edge.forgecdn.net/files/5936/595/chat_heads-0.13.7-forge-1.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 407206,
+        "file_id": 5936595
+      }
+    },
+    {
+      "path": "mods/cherishedworlds-forge-6.1.7+1.20.1.jar",
+      "size": 60956,
+      "sha256": "d9717f9a57562784b704764c2b040f14db68f12ef3fa17f66e4a02346f37dddd",
+      "url": "https://edge.forgecdn.net/files/5955/879/cherishedworlds-forge-6.1.7+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 308240,
+        "file_id": 5955879
+      }
+    },
+    {
+      "path": "mods/citadel-2.6.3-1.20.1.jar",
+      "size": 3185275,
+      "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce",
+      "url": "https://edge.forgecdn.net/files/7476/570/citadel-2.6.3-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 331936,
+        "file_id": 7476570
+      }
+    },
+    {
+      "path": "mods/classicpipes-forge-1.20.1-1.1.5.jar",
+      "size": 761130,
+      "sha256": "4ba5d34cc93ebfe554cdbf32f97f980417778bb39ce97050019aa1758ff7092f",
+      "url": "https://edge.forgecdn.net/files/8054/935/classicpipes-forge-1.20.1-1.1.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1351745,
+        "file_id": 8054935
+      }
+    },
+    {
+      "path": "mods/clayworks-1.20.1-3.0.4.jar",
+      "size": 1195583,
+      "sha256": "11ff8f15b4cb0056615f770da73e293ecd72a99a6ae3bbb67d7f0dba4e030488",
+      "url": "https://edge.forgecdn.net/files/6321/200/clayworks-1.20.1-3.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 592162,
+        "file_id": 6321200
+      }
+    },
+    {
+      "path": "mods/cleanview-1.20.1-v1.jar",
+      "size": 11011,
+      "sha256": "20ae09339ee2cae7e41dd1c1e31f8bcf0be2529cbdb3f66af808cba87ded7c56",
+      "url": "https://edge.forgecdn.net/files/4592/948/cleanview-1.20.1-v1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 226889,
+        "file_id": 4592948
+      }
+    },
+    {
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "size": 1181413,
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "url": "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 348521,
+        "file_id": 5729105
+      }
+    },
+    {
+      "path": "mods/cluttered-[Forge]-3.0.3-1.20.1.jar",
+      "size": 5551679,
+      "sha256": "c910256a0b14a9dd0eb0395201730d12fdd5cb793b5bc3f3ecc58566485f26af",
+      "url": "https://edge.forgecdn.net/files/7385/618/cluttered-%5BForge%5D-3.0.3-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 826308,
+        "file_id": 7385618
+      }
+    },
+    {
+      "path": "mods/collective-1.20.1-7.87.jar",
+      "size": 648876,
+      "sha256": "57022326808f31ce7bab1e4c169dbbfec320815c9ac10d0aca40f174b5a699f3",
+      "url": "https://edge.forgecdn.net/files/5840/216/collective-1.20.1-7.87.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 342584,
+        "file_id": 5840216
+      }
+    },
+    {
+      "path": "mods/colorfulhearts-forge-1.20.1-4.3.16.jar",
+      "size": 122868,
+      "sha256": "cff4fe41c167b6bdf15d41ab6778994434daddad833b938602b998890c86b696",
+      "url": "https://edge.forgecdn.net/files/5724/977/colorfulhearts-forge-1.20.1-4.3.16.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 854213,
+        "file_id": 5724977
+      }
+    },
+    {
+      "path": "mods/colorwheel-forge-1.2.9+mc1.20.1.jar",
+      "size": 1028327,
+      "sha256": "f1632bb755738e86413fad5da5148ef29a4cbafadb569f151f17590f9d6a89e1",
+      "url": "https://edge.forgecdn.net/files/8206/638/colorwheel-forge-1.2.9+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1254143,
+        "file_id": 8206638
+      }
+    },
+    {
+      "path": "mods/colorwheel_patcher-forge-1.0.5+mc1.20.1.jar",
+      "size": 210838,
+      "sha256": "77cf4d1602af673cd427dfbb21d359859ea10abcf2bff46da2602535a24e5c63",
+      "url": "https://edge.forgecdn.net/files/7924/940/colorwheel_patcher-forge-1.0.5+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1285475,
+        "file_id": 7924940
+      }
+    },
+    {
+      "path": "mods/comforts-forge-6.4.0+1.20.1.jar",
+      "size": 382083,
+      "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c",
+      "url": "https://edge.forgecdn.net/files/5503/516/comforts-forge-6.4.0+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 276951,
+        "file_id": 5503516
+      }
+    },
+    {
+      "path": "mods/common-networking-forge-1.0.5-1.20.1.jar",
+      "size": 20701,
+      "sha256": "e022a26c78d579516b0e46f90b06fff0f2517cea0b6389ec43b6c4e384427cea",
+      "url": "https://edge.forgecdn.net/files/5486/134/common-networking-forge-1.0.5-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 806044,
+        "file_id": 5486134
+      }
+    },
+    {
+      "path": "mods/connectivity-1.20.1-7.2.jar",
+      "size": 112268,
+      "sha256": "4b7278a0c5f9a13371ad08d235a91bc94c0783ec62f0be0103ba91a01106188a",
+      "url": "https://edge.forgecdn.net/files/7032/387/connectivity-1.20.1-7.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 470193,
+        "file_id": 7032387
+      }
+    },
+    {
+      "path": "mods/constructionwand-1.20.1-2.11.jar",
+      "size": 210312,
+      "sha256": "b55ca6f0e734bad848adb06949675136f1d05cb4fb3efdde084c9842c40e1eec",
+      "url": "https://edge.forgecdn.net/files/4684/54/constructionwand-1.20.1-2.11.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 399558,
+        "file_id": 4684054
+      }
+    },
+    {
+      "path": "mods/controllable-forge-1.20.1-0.21.9.jar",
+      "size": 7569416,
+      "sha256": "937f628547fb077ac207ecf1180541c707c26beafa3e98b1ab239ef22bdf2b80",
+      "url": "https://edge.forgecdn.net/files/7943/200/controllable-forge-1.20.1-0.21.9.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 317269,
+        "file_id": 7943200
+      }
+    },
+    {
+      "path": "mods/copycats-3.0.7+mc.1.20.1-forge.jar",
+      "size": 1996097,
+      "sha256": "bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a",
+      "url": "https://edge.forgecdn.net/files/7634/682/copycats-3.0.7+mc.1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 968398,
+        "file_id": 7634682
+      }
+    },
+    {
+      "path": "mods/coroutil-forge-1.20.1-1.3.7.jar",
+      "size": 64187,
+      "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f",
+      "url": "https://edge.forgecdn.net/files/5096/38/coroutil-forge-1.20.1-1.3.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 237749,
+        "file_id": 5096038
+      }
+    },
+    {
+      "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar",
+      "size": 88752,
+      "sha256": "c790e8671625b05ec0aa19272e0ea74ea95619f953e3c6f39a6736af0d386804",
+      "url": "https://edge.forgecdn.net/files/4600/191/cosmeticarmorreworked-1.20.1-v1a.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 237307,
+        "file_id": 4600191
+      }
+    },
+    {
+      "path": "mods/cozycafe-1.10-all.jar",
+      "size": 426369,
+      "sha256": "966dc7217d555fa29195483f90a88f4a0e30f5e76be38810f5212c5911451a2d",
+      "url": "https://edge.forgecdn.net/files/8818/409/cozycafe-1.10-all.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1590319,
+        "file_id": 8818409
+      }
+    },
+    {
+      "path": "mods/crafting-on-a-stick-1.20.1-1.1.5.jar",
+      "size": 55252,
+      "sha256": "b66dada0efff8ce5e89ecf84fdeb7b38ef4d72f23fb89644dec7065690858eac",
+      "url": "https://edge.forgecdn.net/files/5429/170/crafting-on-a-stick-1.20.1-1.1.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 577850,
+        "file_id": 5429170
+      }
+    },
+    {
+      "path": "mods/craftingtweaks-forge-1.20.1-18.2.8.jar",
+      "size": 231043,
+      "sha256": "ca1532661d69629f468929fb7f3f55bcb239feaec06216f12e723c3f4a8c1c8d",
+      "url": "https://edge.forgecdn.net/files/7454/498/craftingtweaks-forge-1.20.1-18.2.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 233071,
+        "file_id": 7454498
+      }
+    },
+    {
+      "path": "mods/crashutilities-8.1.4.jar",
+      "size": 233000,
+      "sha256": "2939fd6ca8211c283d1606b140951d543880d5f5843c26b4f87c85ef8e34259d",
+      "url": "https://edge.forgecdn.net/files/4716/86/crashutilities-8.1.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 371813,
+        "file_id": 4716086
+      }
+    },
+    {
+      "path": "mods/create-1.20.1-6.0.8.jar",
+      "size": 19170905,
+      "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
+      "url": "https://edge.forgecdn.net/files/7178/761/create-1.20.1-6.0.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 328085,
+        "file_id": 7178761
+      }
+    },
+    {
+      "path": "mods/create_central_kitchen-1.20.1-for-create-6.0.8-1.5.0.jar",
+      "size": 835363,
+      "sha256": "e2df6c4d862160a4bb5c5c19d3eae3be5226794d3e6fb5816ba69a20a34cce9f",
+      "url": "https://edge.forgecdn.net/files/8204/836/create_central_kitchen-1.20.1-for-create-6.0.8-1.5.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 820977,
+        "file_id": 8204836
+      }
+    },
+    {
+      "path": "mods/create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+      "size": 488060,
+      "sha256": "8a8b1ba1d5348cf737701697f534ce7570f28b4d00557f9b8b2eca1e7aaefc71",
+      "url": "https://edge.forgecdn.net/files/6652/836/create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 688768,
+        "file_id": 6652836
+      }
+    },
+    {
+      "path": "mods/create_factory_logistics-1.20.1-1.4.7.jar",
+      "size": 1112673,
+      "sha256": "f425d697818ebc4a9b208cc5b1cdf4cb8846f26c9519a55dd114d3af96b2c730",
+      "url": "https://edge.forgecdn.net/files/7159/834/create_factory_logistics-1.20.1-1.4.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1218807,
+        "file_id": 7159834
+      }
+    },
+    {
+      "path": "mods/create_hypertube-0.4.0-FORGE.jar",
+      "size": 421417,
+      "sha256": "403a1056ae84ce9128436697160f6c3ce5c9c5631952059570c40999cf08811f",
+      "url": "https://edge.forgecdn.net/files/7599/486/create_hypertube-0.4.0-FORGE.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1281336,
+        "file_id": 7599486
+      }
+    },
+    {
+      "path": "mods/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+      "size": 513561,
+      "sha256": "5e7e84a46c136e6f9b742e68b77407ce59257e4658017eaf8702aad6d43893e4",
+      "url": "https://edge.forgecdn.net/files/6944/732/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 686100,
+        "file_id": 6944732
+      }
+    },
+    {
+      "path": "mods/create_slime-1.0.1.jar",
+      "size": 19142,
+      "sha256": "7377244adbf0455d9056d6ac667700f19a0f7b03b3478fbd5e3b93e18ad9a0a5",
+      "url": "https://edge.forgecdn.net/files/6963/686/create_slime-1.0.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1335492,
+        "file_id": 6963686
+      }
+    },
+    {
+      "path": "mods/createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+      "size": 3178491,
+      "sha256": "be613439e772aab9a6b810dfc3c04c69d5942d60fda838aa23b8d24c75e64d71",
+      "url": "https://edge.forgecdn.net/files/7227/738/createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 935929,
+        "file_id": 7227738
+      }
+    },
+    {
+      "path": "mods/createutilities-0.3.2+1.20.1.jar",
+      "size": 358535,
+      "sha256": "1ce5d1376c9cf4a7525e4d02d731e16765cb874475f181404c998e5aec85ac7e",
+      "url": "https://edge.forgecdn.net/files/6701/786/createutilities-0.3.2+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 881586,
+        "file_id": 6701786
+      }
+    },
+    {
+      "path": "mods/creeperconfetti-4.3.jar",
+      "size": 267538,
+      "sha256": "dd1f83cf3d5aa9b7e5aeea285387232d86789a4c682fc516e64d984f4ffe7148",
+      "url": "https://edge.forgecdn.net/files/5990/872/creeperconfetti-4.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 222548,
+        "file_id": 5990872
+      }
+    },
+    {
+      "path": "mods/crittersandcompanions-forge-1.20.1-2.3.5.jar",
+      "size": 1594359,
+      "sha256": "d7be3f0ed78eb4d0f8f607c969a600f45644da5b3cf5bf4e89c977c4af452701",
+      "url": "https://edge.forgecdn.net/files/7147/523/crittersandcompanions-forge-1.20.1-2.3.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 574913,
+        "file_id": 7147523
+      }
+    },
+    {
+      "path": "mods/croptania-0.3.jar",
+      "size": 31377,
+      "sha256": "57757070917e47de3fbf4bce6319c219bb25f2988077f8500ab0291af51a07f6",
+      "url": "https://edge.forgecdn.net/files/6353/910/croptania-0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1205372,
+        "file_id": 6353910
+      }
+    },
+    {
+      "path": "mods/cupboard-1.20.1-2.7.jar",
+      "size": 25983,
+      "sha256": "63a1b6e8e9cffd53f283fae04f64b8d63dcaaa99fe0e383bb664f23ec87d395f",
+      "url": "https://edge.forgecdn.net/files/5470/32/cupboard-1.20.1-2.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 326652,
+        "file_id": 5470032
+      }
+    },
+    {
+      "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+      "size": 398066,
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+      "url": "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 309927,
+        "file_id": 6418456
+      }
+    },
+    {
+      "path": "mods/curious_armor_stands-1.20-5.1.0.jar",
+      "size": 12526,
+      "sha256": "11cbe8d6e888ee085dad2f59d87373f3588f5fbcb7f25f879f361128694f1ed6",
+      "url": "https://edge.forgecdn.net/files/5403/962/curious_armor_stands-1.20-5.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 398784,
+        "file_id": 5403962
+      }
+    },
+    {
+      "path": "mods/decorative_blocks-forge-1.20.1-4.1.3.jar",
+      "size": 573928,
+      "sha256": "19bc47b32258dd703b808f76e7b89da1746ecddaec4ad2bd5eaa356c0d2b3d87",
+      "url": "https://edge.forgecdn.net/files/5089/406/decorative_blocks-forge-1.20.1-4.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 362528,
+        "file_id": 5089406
+      }
+    },
+    {
+      "path": "mods/dew_drop_daily_weather-1.1.1.jar",
+      "size": 15834,
+      "sha256": "7945da6bca4019ec7dc7dd2113e7089497df9e99def6ba8fb9badbd74ce03aa9",
+      "url": "https://edge.forgecdn.net/files/6609/254/dew_drop_daily_weather-1.1.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1062904,
+        "file_id": 6609254
+      }
+    },
+    {
+      "path": "mods/dew_drop_farmland_growth-9.0.jar",
+      "size": 148552,
+      "sha256": "5d0bc2ed1398b8c9729ebb5b0a44938385115be33e45271dfcbb8cd00aff24ab",
+      "url": "https://edge.forgecdn.net/files/8603/38/dew_drop_farmland_growth-9.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1172429,
+        "file_id": 8603038
+      }
+    },
+    {
+      "path": "mods/dew_drop_watering_cans-1.0.2.jar",
+      "size": 47597,
+      "sha256": "362700c77dbeeeb3e47323de91da86512a5b4a93fa56b8bc812ce6b29a8ee07f",
+      "url": "https://edge.forgecdn.net/files/5550/49/dew_drop_watering_cans-1.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1062863,
+        "file_id": 5550049
+      }
+    },
+    {
+      "path": "mods/displaydelight-0.0.1-lite.jar",
+      "size": 373450,
+      "sha256": "b47a6c9a688aa923c071d04ab7a9ba3cdaa73c61f1cc5b69bf5f876bc0a992d6",
+      "url": "https://edge.forgecdn.net/files/6041/724/displaydelight-0.0.1-lite.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1144296,
+        "file_id": 6041724
+      }
+    },
+    {
+      "path": "mods/domesticationinnovation-1.7.2-1.20.1.jar",
+      "size": 853558,
+      "sha256": "3415f1f6288f49cdbe25c4d116603cdc1b70aba0aa0b90f459847f9b987d63eb",
+      "url": "https://edge.forgecdn.net/files/6717/213/domesticationinnovation-1.7.2-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1298091,
+        "file_id": 6717213
+      }
+    },
+    {
+      "path": "mods/drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+      "size": 239365,
+      "sha256": "cf60e933cbf075c286f60ee259b2ed26da053d1fef1f4e23d88adb0bb558bde5",
+      "url": "https://edge.forgecdn.net/files/6412/211/drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 511770,
+        "file_id": 6412211
+      }
+    },
+    {
+      "path": "mods/ears-forge-1.19.4-1.4.7.jar",
+      "size": 160424,
+      "sha256": "9f2ac20341d6d32bae9e87d416931a2f5ae4ae16635e24be6060da6416eaa6ae",
+      "url": "https://edge.forgecdn.net/files/6166/552/ears-forge-1.19.4-1.4.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 412013,
+        "file_id": 6166552
+      }
+    },
+    {
+      "path": "mods/easy_npc-forge-1.20.1-6.1.0.jar",
+      "size": 1519447,
+      "sha256": "0518e2d9bc8d3c1e491b7bde82baf63f26f65bad260cb116823778ec0c0234ac",
+      "url": "https://edge.forgecdn.net/files/7287/117/easy_npc-forge-1.20.1-6.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1308987,
+        "file_id": 7287117
+      }
+    },
+    {
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "size": 1320675,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "url": "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 908741,
+        "file_id": 5681725
+      }
+    },
+    {
+      "path": "mods/emberstextapi-1.4.1.jar",
+      "size": 124384,
+      "sha256": "2cde92dae642359f358a852a7ddeb49e26e276d1ba1056dcb6996641fd9dcd28",
+      "url": "https://edge.forgecdn.net/files/7503/929/emberstextapi-1.4.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1345948,
+        "file_id": 7503929
+      }
+    },
+    {
+      "path": "mods/emi-1.1.24+1.20.1+forge.jar",
+      "size": 1121750,
+      "sha256": "92784dcf5222d72983a420c90f2e9240468ee0fece96f757c82d7884b6cbdb72",
+      "url": "https://edge.forgecdn.net/files/8081/375/emi-1.1.24+1.20.1+forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 580555,
+        "file_id": 8081375
+      }
+    },
+    {
+      "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+      "size": 680255,
+      "sha256": "ffaac96e37e6fa950080e2eb4aa361aa8b7bd6c4370862f39893ac2d266d7c14",
+      "url": "https://cdn.modrinth.com/data/pZ2wrerK/versions/2f5mEUPY/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+      "policy": "replace"
+    },
+    {
+      "path": "mods/entity_model_features-3.2.4-1.20.1-forge.jar",
+      "size": 752458,
+      "sha256": "0984570913a154ef65ebca54ac797fec11721c5e24aeceeb285b8ca2f562b35e",
+      "url": "https://edge.forgecdn.net/files/8063/556/entity_model_features-3.2.4-1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 844662,
+        "file_id": 8063556
+      }
+    },
+    {
+      "path": "mods/entity_texture_features_1.20.1-forge-7.1.jar",
+      "size": 944851,
+      "sha256": "96b70f55efc64e5149ff977f065385d1634b8cbb71be856a0c7261c62c92f18c",
+      "url": "https://edge.forgecdn.net/files/7930/617/entity_texture_features_1.20.1-forge-7.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 568563,
+        "file_id": 7930617
+      }
+    },
+    {
+      "path": "mods/entityjs-0.6.6-1.20.1.jar",
+      "size": 2363566,
+      "sha256": "0e192e282b27e7c60503334a8300320e7daec5eeaf2d20f04b2773daf7bd1569",
+      "url": "https://edge.forgecdn.net/files/7296/807/entityjs-0.6.6-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 967617,
+        "file_id": 7296807
+      }
+    },
+    {
+      "path": "mods/etched-3.0.4.jar",
+      "size": 611496,
+      "sha256": "18fa648a887eb8ae284e278b1c361c8bffe73947336761d8b1787052dd34fe69",
+      "url": "https://edge.forgecdn.net/files/5999/495/etched-3.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 491890,
+        "file_id": 5999495
+      }
+    },
+    {
+      "path": "mods/everycomp-1.20-2.9.24-forge.jar",
+      "size": 2865518,
+      "sha256": "f7be6337c47c98ad9aabff5e0657b7a392e158313bcd18f1a2719f6f6df1a2df",
+      "url": "https://edge.forgecdn.net/files/8332/989/everycomp-1.20-2.9.24-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 628539,
+        "file_id": 8332989
+      }
+    },
+    {
+      "path": "mods/expandability-9.0.4.jar",
+      "size": 80765,
+      "sha256": "c1f7c3ba5873bb4797d2124c57bab3189acdb62d02f63217db1456d232dac20f",
+      "url": "https://edge.forgecdn.net/files/5301/414/expandability-9.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 465066,
+        "file_id": 5301414
+      }
+    },
+    {
+      "path": "mods/exposure-1.20.1-1.7.16-forge.jar",
+      "size": 1360685,
+      "sha256": "55a8351bffc41b0d4a520d004c05561d4d76c1a1128f364bd4a44251c00f1de9",
+      "url": "https://edge.forgecdn.net/files/6655/718/exposure-1.20.1-1.7.16-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 871755,
+        "file_id": 6655718
+      }
+    },
+    {
+      "path": "mods/exposure_catalog-1.20.1-1.0.3-forge.jar",
+      "size": 146211,
+      "sha256": "49cd18b0d424875d06eaf371575661e2fe921fb2e4f4ac07c1c5860a47a004dc",
+      "url": "https://edge.forgecdn.net/files/5596/310/exposure_catalog-1.20.1-1.0.3-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1023882,
+        "file_id": 5596310
+      }
+    },
+    {
+      "path": "mods/extra_gauges-2.0.7.jar",
+      "size": 1029438,
+      "sha256": "8d45dc713998e5b8690b8a6d98af7260dfe4b5febffd0b391538a7bac2037f3d",
+      "url": "https://edge.forgecdn.net/files/7058/464/extra_gauges-2.0.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1263228,
+        "file_id": 7058464
+      }
+    },
+    {
+      "path": "mods/extractinator-forge-1.20.1-2.3.0.jar",
+      "size": 117038,
+      "sha256": "072a52a75cc57b2ac9df238df6bc0865bdcb84cc12d9a77800b3b5439510946e",
+      "url": "https://edge.forgecdn.net/files/4863/801/extractinator-forge-1.20.1-2.3.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 567114,
+        "file_id": 4863801
+      }
+    },
+    {
+      "path": "mods/fallingleaves-1.20.1-2.1.2.jar",
+      "size": 124212,
+      "sha256": "6202d8241f01e21278fd5de644fd2e992824069f2cf0fc9dc6a74ab2218015b6",
+      "url": "https://edge.forgecdn.net/files/6241/90/fallingleaves-1.20.1-2.1.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 463155,
+        "file_id": 6241090
+      }
+    },
+    {
+      "path": "mods/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+      "size": 4025908,
+      "sha256": "6b4853214c5cc156b187b86162df2db028c0ddcf90380fa1897068cde2622de1",
+      "url": "https://edge.forgecdn.net/files/6231/30/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 880630,
+        "file_id": 6231030
+      }
+    },
+    {
+      "path": "mods/fancymenu_forge_3.7.0_MC_1.20.1.jar",
+      "size": 3628603,
+      "sha256": "f473e8f82831f883853c25d12c47ce2f6e97c860775ccb9ea1f2d27adc8eb1ea",
+      "url": "https://edge.forgecdn.net/files/6918/987/fancymenu_forge_3.7.0_MC_1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 367706,
+        "file_id": 6918987
+      }
+    },
+    {
+      "path": "mods/fantasyfurniture-1.20.1-9.0.0.jar",
+      "size": 3202951,
+      "sha256": "11035b688bb1018a7ebfdaa868ffe6ace87e533b678dcf3b689c15f79fe1af2c",
+      "url": "https://edge.forgecdn.net/files/4702/176/fantasyfurniture-1.20.1-9.0.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 579564,
+        "file_id": 4702176
+      }
+    },
+    {
+      "path": "mods/farmingforblockheads-forge-1.20.1-14.0.2.jar",
+      "size": 569517,
+      "sha256": "cdc7e92a2f2cd31a7d55198957c827ad6e627dac9d1b0ebd6aea2dde8d882692",
+      "url": "https://edge.forgecdn.net/files/4749/360/farmingforblockheads-forge-1.20.1-14.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 261924,
+        "file_id": 4749360
+      }
+    },
+    {
+      "path": "mods/farmlife-1.20.1-1.1.0.jar",
+      "size": 960006,
+      "sha256": "862b904315736ce5439a30c3d61cd846a92f846b60102f46304accbce7cbb85b",
+      "url": "https://edge.forgecdn.net/files/5456/879/farmlife-1.20.1-1.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 585764,
+        "file_id": 5456879
+      }
+    },
+    {
+      "path": "mods/fastpaintings-1.20-1.2.7.jar",
+      "size": 309400,
+      "sha256": "cb7e71c87abb53d9bf66836ff3a9036dde261594e25ecbe3e140fe3153ce4358",
+      "url": "https://edge.forgecdn.net/files/5324/825/fastpaintings-1.20-1.2.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 883287,
+        "file_id": 5324825
+      }
+    },
+    {
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "size": 123034,
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "url": "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 429235,
+        "file_id": 4810975
+      }
+    },
+    {
+      "path": "mods/findme-3.2.3-forge.jar",
+      "size": 38674,
+      "sha256": "e76860618564a4e7b3c44ea15e30bce9441bb04259477891633523e186ed77bb",
+      "url": "https://edge.forgecdn.net/files/7069/249/findme-3.2.3-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 291936,
+        "file_id": 7069249
+      }
+    },
+    {
+      "path": "mods/flerovium-forge-1.20.1-1.2.18-all.jar",
+      "size": 253961,
+      "sha256": "12b79b6f4e8129ddbddd61525bb9251add9be737b7c5ec347febc1dec3e463cb",
+      "url": "https://edge.forgecdn.net/files/7584/65/flerovium-forge-1.20.1-1.2.18-all.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1142875,
+        "file_id": 7584065
+      }
+    },
+    {
+      "path": "mods/fragmentum-forge-1.20.1-1.1.4.jar",
+      "size": 1690913,
+      "sha256": "1d1e1461155f5a0de514f03e7fa2e7d4b0d1bd1833b0608706fe4cf38aec5178",
+      "url": "https://edge.forgecdn.net/files/7861/201/fragmentum-forge-1.20.1-1.1.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1123970,
+        "file_id": 7861201
+      }
+    },
+    {
+      "path": "mods/framework-forge-1.20.1-0.7.15.jar",
+      "size": 309560,
+      "sha256": "0c29b9bab2ca7209a6cc8d80b2cd06daa4be2da81b636f7292cebebfaaea6c08",
+      "url": "https://edge.forgecdn.net/files/6531/428/framework-forge-1.20.1-0.7.15.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 549225,
+        "file_id": 6531428
+      }
+    },
+    {
+      "path": "mods/ftb-chunks-forge-2001.3.6.jar",
+      "size": 1158842,
+      "sha256": "caaa40aea64bba6f113fbddcabf77962b4b4e03bf57cbabace07ab05d28b38f9",
+      "url": "https://edge.forgecdn.net/files/6431/735/ftb-chunks-forge-2001.3.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 314906,
+        "file_id": 6431735
+      }
+    },
+    {
+      "path": "mods/ftb-library-forge-2001.2.12.jar",
+      "size": 780523,
+      "sha256": "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96",
+      "url": "https://edge.forgecdn.net/files/7296/748/ftb-library-forge-2001.2.12.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 404465,
+        "file_id": 7296748
+      }
+    },
+    {
+      "path": "mods/ftb-quests-forge-2001.4.17.jar",
+      "size": 1227820,
+      "sha256": "0c9e8a8a0cbeb2f77f9f50a412758e66fb01d638c8b43feef7262d8c2cedd60d",
+      "url": "https://edge.forgecdn.net/files/7260/736/ftb-quests-forge-2001.4.17.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 289412,
+        "file_id": 7260736
+      }
+    },
+    {
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "size": 252579,
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "url": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 404468,
+        "file_id": 7499810
+      }
+    },
+    {
+      "path": "mods/ftb-xmod-compat-forge-2.1.3.jar",
+      "size": 129725,
+      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+      "url": "https://edge.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 889915,
+        "file_id": 6402486
+      }
+    },
+    {
+      "path": "mods/ftbbackups2-forge-1.20-1.0.23.jar",
+      "size": 1954591,
+      "sha256": "19cea280a56e533b9669d4f866aef38ebe54f6d8627efe6798016e17b6b4afda",
+      "url": "https://edge.forgecdn.net/files/4834/403/ftbbackups2-forge-1.20-1.0.23.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 622737,
+        "file_id": 4834403
+      }
+    },
+    {
+      "path": "mods/ftbquestlocalizer-1.20.1-forge-3.2.3.jar",
+      "size": 36983,
+      "sha256": "ec78d601aaf3d4fd35978b70b4a894c4a396ef5c2d11d35b4bcab05597915026",
+      "url": "https://edge.forgecdn.net/files/7529/230/ftbquestlocalizer-1.20.1-forge-3.2.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1071737,
+        "file_id": 7529230
+      }
+    },
+    {
+      "path": "mods/functionalstorage-1.20.1-1.2.13.jar",
+      "size": 682220,
+      "sha256": "0d458bcd5c23e53b5479acdb2e9ac2f762f2a1f3b14951bf3cc4cafeabefb687",
+      "url": "https://edge.forgecdn.net/files/6702/553/functionalstorage-1.20.1-1.2.13.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 556861,
+        "file_id": 6702553
+      }
+    },
+    {
+      "path": "mods/fusion-1.2.11c-forge-mc1.20.1.jar",
+      "size": 544820,
+      "sha256": "d9cc13fd7f4a418e4445be18b3d04861bf2f7767d83c46580bee1b58816d3345",
+      "url": "https://edge.forgecdn.net/files/7358/298/fusion-1.2.11c-forge-mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 854949,
+        "file_id": 7358298
+      }
+    },
+    {
+      "path": "mods/gag-forge-3.0.0-build.13.jar",
+      "size": 190621,
+      "sha256": "79cd7b0151652694750234bfa11fdd8c192e5a8c49012df7438d76a667aabcbd",
+      "url": "https://edge.forgecdn.net/files/6120/294/gag-forge-3.0.0-build.13.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 694962,
+        "file_id": 6120294
+      }
+    },
+    {
+      "path": "mods/gallery-1.20.1-1.0.3.jar",
+      "size": 241777,
+      "sha256": "92843009ee00d4407484fa8df2a813b909117553f113b35f26f57f87cabb8059",
+      "url": "https://edge.forgecdn.net/files/6321/203/gallery-1.20.1-1.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1173553,
+        "file_id": 6321203
+      }
+    },
+    {
+      "path": "mods/gamediscs-0.3.2-forge.jar",
+      "size": 241786,
+      "sha256": "ea5abfa926d8446b078cff02b36897116761dbf96a0c8616fb95c83c6440dc03",
+      "url": "https://edge.forgecdn.net/files/6469/886/gamediscs-0.3.2-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1099059,
+        "file_id": 6469886
+      }
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.jar",
+      "size": 1039409,
+      "sha256": "a93c4e20e2f6c1ccd603225a6c9207aed7018a1182145860b49c5232c8837f10",
+      "url": "https://edge.forgecdn.net/files/7017/796/geckolib-forge-1.20.1-4.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 388172,
+        "file_id": 7017796
+      }
+    },
+    {
+      "path": "mods/gnetum-2.4.6.jar",
+      "size": 727997,
+      "sha256": "f3ac0d468730ef835b5e974afea241d4d8a227378f02b7a04be129ff038f85a5",
+      "url": "https://edge.forgecdn.net/files/8284/344/gnetum-2.4.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1220460,
+        "file_id": 8284344
+      }
+    },
+    {
+      "path": "mods/golemoverhaul-forge-1.20.1-1.1.0.jar",
+      "size": 1039298,
+      "sha256": "87ec512f9c4c06cd372a0c7f5287dd21547016e7f3fe6d1c207ec6074c07d19f",
+      "url": "https://edge.forgecdn.net/files/7484/359/golemoverhaul-forge-1.20.1-1.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 618752,
+        "file_id": 7484359
+      }
+    },
+    {
+      "path": "mods/guiclock-1.20.1-4.6.jar",
+      "size": 40270,
+      "sha256": "b0bccb0653397b123824782bf32233c7b578c1e89af12daf6a0dca099fa10049",
+      "url": "https://edge.forgecdn.net/files/5572/449/guiclock-1.20.1-4.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 347529,
+        "file_id": 5572449
+      }
+    },
+    {
+      "path": "mods/hamsters-forge-1.0.3-1.20.1.jar",
+      "size": 439448,
+      "sha256": "68a81007153fa97e8986306a2e358fcaa8a240d2fe8f30d361acfc43f8f7c51f",
+      "url": "https://edge.forgecdn.net/files/5121/305/hamsters-forge-1.0.3-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 952435,
+        "file_id": 5121305
+      }
+    },
+    {
+      "path": "mods/hobbit_hill_village-0.0.4.jar",
+      "size": 3755509,
+      "sha256": "f215e3e4c34cc4712cc30d66622b07ecb777ee6ef5d5f8cebbc0a52817173a7a",
+      "url": "https://edge.forgecdn.net/files/7814/267/hobbit_hill_village-0.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1280129,
+        "file_id": 7814267
+      }
+    },
+    {
+      "path": "mods/horseman-1.20.1-1.3.15-forge.jar",
+      "size": 329030,
+      "sha256": "e4e068c6848791ea378c855e7f0471f077f112847c4318a5fdd5efe1bf805b96",
+      "url": "https://edge.forgecdn.net/files/7650/572/horseman-1.20.1-1.3.15-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1082085,
+        "file_id": 7650572
+      }
+    },
+    {
+      "path": "mods/immersive_paintings-0.6.13+1.20.1-forge.jar",
+      "size": 4856103,
+      "sha256": "069d5dffa4060d965899e607fad725c4d80a8086cef64f1d7563259b0a070633",
+      "url": "https://edge.forgecdn.net/files/8140/573/immersive_paintings-0.6.13+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 639584,
+        "file_id": 8140573
+      }
+    },
+    {
+      "path": "mods/incontrol-1.20-9.4.1.jar",
+      "size": 361755,
+      "sha256": "c44dfe5be94c9e166bc7519ea2edfc6ca9f4c40ba5fc1fa61206ac29285ab236",
+      "url": "https://edge.forgecdn.net/files/6938/482/incontrol-1.20-9.4.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 257356,
+        "file_id": 6938482
+      }
+    },
+    {
+      "path": "mods/irons_rpg_tweaks-1.20-1.4.0.jar",
+      "size": 290546,
+      "sha256": "a1b8f4ee7f01e932269ce1829777a28a69f4313cd617b263379dc1a0ede18694",
+      "url": "https://edge.forgecdn.net/files/6094/337/irons_rpg_tweaks-1.20-1.4.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 871799,
+        "file_id": 6094337
+      }
+    },
+    {
+      "path": "mods/item-filters-forge-2001.1.0-build.59.jar",
+      "size": 110191,
+      "sha256": "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49",
+      "url": "https://edge.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 309674,
+        "file_id": 4838266
+      }
+    },
+    {
+      "path": "mods/jeed-1.20-2.2.5.jar",
+      "size": 159288,
+      "sha256": "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83",
+      "url": "https://edge.forgecdn.net/files/6172/935/jeed-1.20-2.2.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 532286,
+        "file_id": 6172935
+      }
+    },
+    {
+      "path": "mods/jei-1.20.1-forge-15.20.0.129.jar",
+      "size": 1409642,
+      "sha256": "5e5af05aa082f5844c7b3ed0b3bd9374e160ae1914906f71d90c5656e4e80039",
+      "url": "https://edge.forgecdn.net/files/7391/695/jei-1.20.1-forge-15.20.0.129.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 238222,
+        "file_id": 7391695
+      }
+    },
+    {
+      "path": "mods/jmi-forge-1.20.1-0.14-48.jar",
+      "size": 69022,
+      "sha256": "b96f323241bfc6295c6887c36c7a39e5375019883373db5a0383fc6d34f3a505",
+      "url": "https://edge.forgecdn.net/files/5510/356/jmi-forge-1.20.1-0.14-48.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 525447,
+        "file_id": 5510356
+      }
+    },
+    {
+      "path": "mods/journeymap-1.20.1-5.10.3-forge.jar",
+      "size": 7160405,
+      "sha256": "8b2679b7b4881e0aa430fd24345ea446de919faf8a45bd2a71d37c7e8ff6ae1e",
+      "url": "https://edge.forgecdn.net/files/5789/363/journeymap-1.20.1-5.10.3-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 32274,
+        "file_id": 5789363
+      }
+    },
+    {
+      "path": "mods/justhammers-forge-2.0.3+mc1.20.1.jar",
+      "size": 93291,
+      "sha256": "2e83270c28d3550ee29ccd638c33da248adb3baf5da6ffdaa3c829706da87d65",
+      "url": "https://edge.forgecdn.net/files/4995/650/justhammers-forge-2.0.3+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 681606,
+        "file_id": 4995650
+      }
+    },
+    {
+      "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "size": 625185,
+      "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
+      "url": "https://edge.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 410295,
+        "file_id": 5028413
+      }
+    },
+    {
+      "path": "mods/kotlinforforge-4.12.0-all.jar",
+      "size": 7442998,
+      "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+      "url": "https://edge.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 351264,
+        "file_id": 7291067
+      }
+    },
+    {
+      "path": "mods/kubejs-forge-2001.6.5-build.16.jar",
+      "size": 1654660,
+      "sha256": "3de6b7267d3aab981848ed54d3afe7edf20532fa4060631fd6fffcd99ac5f3d5",
+      "url": "https://edge.forgecdn.net/files/5853/326/kubejs-forge-2001.6.5-build.16.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 238086,
+        "file_id": 5853326
+      }
+    },
+    {
+      "path": "mods/kubejs_curios_forge_1.20.1-1.0.4.jar",
+      "size": 42322,
+      "sha256": "acfcf24a006e14e2d2f9dee3706017f526b88a47c205880546938d44432da1d1",
+      "url": "https://edge.forgecdn.net/files/6825/88/kubejs_curios_forge_1.20.1-1.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1255211,
+        "file_id": 6825088
+      }
+    },
+    {
+      "path": "mods/kubejsadditions-forge-4.3.3.jar",
+      "size": 315140,
+      "sha256": "e2d05799bf438d40b76dac0812b4ed26c0a6c638e77f1a23528d67cb9bc76706",
+      "url": "https://edge.forgecdn.net/files/5817/338/kubejsadditions-forge-4.3.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 594387,
+        "file_id": 5817338
+      }
+    },
+    {
+      "path": "mods/labels-1.20-2.0.0.jar",
+      "size": 252608,
+      "sha256": "f4ebfa2676d01bebf377f6f381f5a4cfb516d44443b9da62fedced745d78b8d5",
+      "url": "https://edge.forgecdn.net/files/6201/654/labels-1.20-2.0.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 688223,
+        "file_id": 6201654
+      }
+    },
+    {
+      "path": "mods/legendarycreatures-1.20.1-1.1.1.3.jar",
+      "size": 3704675,
+      "sha256": "f65772a0f92a3f913b9f502f0f0fc455499657f9481cfac4320fc1a24517fc29",
+      "url": "https://edge.forgecdn.net/files/6826/898/legendarycreatures-1.20.1-1.1.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 837157,
+        "file_id": 6826898
+      }
+    },
+    {
+      "path": "mods/letsdo-API-forge-1.2.15-forge.jar",
+      "size": 1440591,
+      "sha256": "d08b99df112cfffb46e289635c79d4ac8397223320abd6469b47e202e23fa28c",
+      "url": "https://edge.forgecdn.net/files/5468/182/letsdo-API-forge-1.2.15-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 864599,
+        "file_id": 5468182
+      }
+    },
+    {
+      "path": "mods/letsdo-bakery-forge-2.0.3.jar",
+      "size": 1084974,
+      "sha256": "940b3bce8764248ea4d230d546bcd63e6e06f2bed59ef7540572fe114313f857",
+      "url": "https://edge.forgecdn.net/files/5824/482/letsdo-bakery-forge-2.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1038130,
+        "file_id": 5824482
+      }
+    },
+    {
+      "path": "mods/letsdo-beachparty-forge-1.1.5.jar",
+      "size": 3549757,
+      "sha256": "bb3708bf6ac19e0fa2c3733e2c437a1e179be78e0bc4e2c76a460c2f9117eab8",
+      "url": "https://edge.forgecdn.net/files/5320/668/letsdo-beachparty-forge-1.1.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 858691,
+        "file_id": 5320668
+      }
+    },
+    {
+      "path": "mods/letsdo-brewery-forge-2.0.3.jar",
+      "size": 1409972,
+      "sha256": "7367c8cbde2d86827608ecb775f244f6cbf844297cde46f61d1dd2da54848196",
+      "url": "https://edge.forgecdn.net/files/5652/315/letsdo-brewery-forge-2.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1038106,
+        "file_id": 5652315
+      }
+    },
+    {
+      "path": "mods/letsdo-candlelight-forge-2.0.2.jar",
+      "size": 2359843,
+      "sha256": "0836221e7021be690b4017424e6fea570e70d31c839a166102ab82bb8fbbf0fa",
+      "url": "https://edge.forgecdn.net/files/5652/318/letsdo-candlelight-forge-2.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1038117,
+        "file_id": 5652318
+      }
+    },
+    {
+      "path": "mods/letsdo-farm_and_charm-forge-1.0.4.jar",
+      "size": 1838745,
+      "sha256": "4514fe342e634f7ea32dab3e2c1d908ab6e3fa4756f125870a4cfec4e5a37ded",
+      "url": "https://edge.forgecdn.net/files/5824/225/letsdo-farm_and_charm-forge-1.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1038103,
+        "file_id": 5824225
+      }
+    },
+    {
+      "path": "mods/letsdo-furniture-forge-1.0.4.jar",
+      "size": 2816299,
+      "sha256": "814f0e6490e8b380dc36989a0e4953d72e9c4afddb116983f86baca509d85e6b",
+      "url": "https://edge.forgecdn.net/files/5988/125/letsdo-furniture-forge-1.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1062363,
+        "file_id": 5988125
+      }
+    },
+    {
+      "path": "mods/letsdo-herbalbrews-forge-1.0.12.jar",
+      "size": 735868,
+      "sha256": "8cf03776a4a876810a2af9c9f18f73eb5a20f041b0791b6c8b8150b5441b83c1",
+      "url": "https://edge.forgecdn.net/files/6458/889/letsdo-herbalbrews-forge-1.0.12.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 951221,
+        "file_id": 6458889
+      }
+    },
+    {
+      "path": "mods/letsdo-meadow-forge-1.3.23.jar",
+      "size": 2675635,
+      "sha256": "111b788f5396e58c0abc4cbad9322c5b1004278e0a2a0e1f21230235788d9e9f",
+      "url": "https://edge.forgecdn.net/files/6164/451/letsdo-meadow-forge-1.3.23.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 821483,
+        "file_id": 6164451
+      }
+    },
+    {
+      "path": "mods/letsdo-nethervinery-forge-1.2.19.jar",
+      "size": 650907,
+      "sha256": "c8d1b795468ecb4a82fbafd3b9134881dbe8e6108b62ba4060922448ab0e0cd4",
+      "url": "https://edge.forgecdn.net/files/6855/728/letsdo-nethervinery-forge-1.2.19.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 930072,
+        "file_id": 6855728
+      }
+    },
+    {
+      "path": "mods/letsdo-vinery-forge-1.4.41.jar",
+      "size": 2041283,
+      "sha256": "5d7e11f6e2218562ce75d60788fdcfc9ccf59e4532757c18bf37759d5fc739ee",
+      "url": "https://edge.forgecdn.net/files/6965/751/letsdo-vinery-forge-1.4.41.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 704465,
+        "file_id": 6965751
+      }
+    },
+    {
+      "path": "mods/letsdo-wildernature-forge-1.0.5.jar",
+      "size": 2097218,
+      "sha256": "1919005accef36523e1731f45f133cc7f2352f29a680b05baffe996b5666d02d",
+      "url": "https://edge.forgecdn.net/files/6164/482/letsdo-wildernature-forge-1.0.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1071657,
+        "file_id": 6164482
+      }
+    },
+    {
+      "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar",
+      "size": 476347,
+      "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75",
+      "url": "https://edge.forgecdn.net/files/6742/615/lithostitched-forge-1.20.1-1.4.11.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 936015,
+        "file_id": 6742615
+      }
+    },
+    {
+      "path": "mods/littlejoys-forge-1.20.1-20.1.14.jar",
+      "size": 721306,
+      "sha256": "5887576b513fdb8c18b2159120969fc2dbd0f7b6f9678b5329294e7913763925",
+      "url": "https://edge.forgecdn.net/files/6841/863/littlejoys-forge-1.20.1-20.1.14.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1235950,
+        "file_id": 6841863
+      }
+    },
+    {
+      "path": "mods/lmft-1.0.4+1.20.1-forge.jar",
+      "size": 178625,
+      "sha256": "e622af8d32c6a41904ceaa2da0174491c68b7acd3ec9888c47991dc9b6f591cc",
+      "url": "https://edge.forgecdn.net/files/4892/299/lmft-1.0.4+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 656346,
+        "file_id": 4892299
+      }
+    },
+    {
+      "path": "mods/loot_journal-forge-1.20.1-6.1.2.jar",
+      "size": 935450,
+      "sha256": "d78a108e2353ca0c469177fb7a08bc14b714e5945496d657ae1aabd846627515",
+      "url": "https://edge.forgecdn.net/files/7867/729/loot_journal-forge-1.20.1-6.1.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 700723,
+        "file_id": 7867729
+      }
+    },
+    {
+      "path": "mods/lootjs-forge-1.20.1-2.13.1.jar",
+      "size": 242267,
+      "sha256": "c1672330605a691b8a91b3a4d252f2d3a280f252874f1fc5fdd7cad07d13b719",
+      "url": "https://edge.forgecdn.net/files/7551/186/lootjs-forge-1.20.1-2.13.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 570630,
+        "file_id": 7551186
+      }
+    },
+    {
+      "path": "mods/lootr-forge-1.20-0.7.35.90.jar",
+      "size": 457647,
+      "sha256": "537ea446b9a3715807624a68b34f6b30d5f7ed2980a69ec80c8c4d0075825ddd",
+      "url": "https://edge.forgecdn.net/files/5976/109/lootr-forge-1.20-0.7.35.90.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 361276,
+        "file_id": 5976109
+      }
+    },
+    {
+      "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "size": 37178,
+      "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8",
+      "url": "https://edge.forgecdn.net/files/5109/692/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 938643,
+        "file_id": 5109692
+      }
+    },
+    {
+      "path": "mods/midnightlib-forge-1.9.2+1.20.1.jar",
+      "size": 61987,
+      "sha256": "19af8e16930380e0669cb457a7f591c9ecac131cf3d879cc77f0fd7afe41b849",
+      "url": "https://edge.forgecdn.net/files/7318/663/midnightlib-forge-1.9.2+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 488090,
+        "file_id": 7318663
+      }
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.8+mc1.20.1.jar",
+      "size": 945123,
+      "sha256": "f6d47fd98423e54f77b34ce789b0cff62a840fee42c1e943053cf0f7e7ffbb05",
+      "url": "https://edge.forgecdn.net/files/7928/686/modernfix-forge-5.27.8+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 790626,
+        "file_id": 7928686
+      }
+    },
+    {
+      "path": "mods/moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar",
+      "size": 259848,
+      "sha256": "284e25e4b216bebf6aa2b3859bad7c0f47aa23281e658f0725484f994f85eac4",
+      "url": "https://edge.forgecdn.net/files/7238/548/moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1337167,
+        "file_id": 7238548
+      }
+    },
+    {
+      "path": "mods/moonlight-1.20-2.16.34-forge.jar",
+      "size": 1419416,
+      "sha256": "007c05ae799417ca7aa26669c5d97be9dface5b6fc27aca4ca8031cafe4ddd6e",
+      "url": "https://edge.forgecdn.net/files/8261/419/moonlight-1.20-2.16.34-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 499980,
+        "file_id": 8261419
+      }
+    },
+    {
+      "path": "mods/morejs-forge-1.20.1-0.10.1.jar",
+      "size": 173745,
+      "sha256": "bffc387943fb6bdfef8fcb6857aaa285f0a33575c9ada3cd66f54352cdb82892",
+      "url": "https://edge.forgecdn.net/files/6542/592/morejs-forge-1.20.1-0.10.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 666198,
+        "file_id": 6542592
+      }
+    },
+    {
+      "path": "mods/moreminecarts-1.8.3.jar",
+      "size": 732356,
+      "sha256": "d338c923a5bb7c5b7333856e486c333b42e1fd76dfe57c8430cf0e8e2aedcf12",
+      "url": "https://edge.forgecdn.net/files/5134/64/moreminecarts-1.8.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 440845,
+        "file_id": 5134064
+      }
+    },
+    {
+      "path": "mods/moreoverlays-1.24.1-mc1.20.1-forge.jar",
+      "size": 114550,
+      "sha256": "682640707331db2fc2a43ea023896622d9179849cf74d3313e3ffea8ec3c2371",
+      "url": "https://edge.forgecdn.net/files/6945/288/moreoverlays-1.24.1-mc1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 391382,
+        "file_id": 6945288
+      }
+    },
+    {
+      "path": "mods/mysticaloaktree-1.20-1.11.jar",
+      "size": 231836,
+      "sha256": "217f791ed65773a26f0563e45e15bed025e95b91e77f114169706777e6fb72d7",
+      "url": "https://edge.forgecdn.net/files/4654/234/mysticaloaktree-1.20-1.11.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 691002,
+        "file_id": 4654234
+      }
+    },
+    {
+      "path": "mods/netherdepthsupgrade-3.1.5-1.20.jar",
+      "size": 595410,
+      "sha256": "ff15d40b448bf799615904335efca741f206d24e232ebc925c405315f179529e",
+      "url": "https://edge.forgecdn.net/files/5340/329/netherdepthsupgrade-3.1.5-1.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 670011,
+        "file_id": 5340329
+      }
+    },
+    {
+      "path": "mods/netherportalfix-forge-1.20-13.0.1.jar",
+      "size": 217831,
+      "sha256": "06f1354664aee53d4c32c83f76ed94bb72426a75b7e0eb8e415abfba3634cf4e",
+      "url": "https://edge.forgecdn.net/files/4939/735/netherportalfix-forge-1.20-13.0.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 241160,
+        "file_id": 4939735
+      }
+    },
+    {
+      "path": "mods/nightlights-1.20.1-1.1.jar",
+      "size": 377881,
+      "sha256": "714775d9b8aee7fa16df51e1b6f1e95cc3cfe6986eb19648fbbee7fe9ff6cbdb",
+      "url": "https://edge.forgecdn.net/files/4618/572/nightlights-1.20.1-1.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 651876,
+        "file_id": 4618572
+      }
+    },
+    {
+      "path": "mods/numismatics_utils-2.2.jar",
+      "size": 41889,
+      "sha256": "b880896640ef46e590778573027e04cec7e87bcf81eb452071f3170e52f8997b",
+      "url": "https://edge.forgecdn.net/files/8757/529/numismatics_utils-2.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1339392,
+        "file_id": 8757529
+      }
+    },
+    {
+      "path": "mods/observable-4.4.1.jar",
+      "size": 473368,
+      "sha256": "cb0d189d2ca663b9a4cc877493b3398243c630225232b962656916dc4d468433",
+      "url": "https://edge.forgecdn.net/files/5080/64/observable-4.4.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 509575,
+        "file_id": 5080064
+      }
+    },
+    {
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "size": 2851119,
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+      "url": "https://edge.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 581495,
+        "file_id": 6020952
+      }
+    },
+    {
+      "path": "mods/ok_zoomer-forge-5.4.0-beta.8.jar",
+      "size": 520782,
+      "sha256": "38b4d0cc99c481d46ea0420e906b5a26843f8215a1bfd49a0501e35c0edea624",
+      "url": "https://edge.forgecdn.net/files/6404/9/ok_zoomer-forge-5.4.0-beta.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 354047,
+        "file_id": 6404009
+      }
+    },
+    {
+      "path": "mods/online_detector-1.20-6.0.0.jar",
+      "size": 183482,
+      "sha256": "139293fa799b64b12dac9560b5e4808fa075ef561570006e4779d5dc25c5547e",
+      "url": "https://edge.forgecdn.net/files/4574/905/online_detector-1.20-6.0.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 454487,
+        "file_id": 4574905
+      }
+    },
+    {
+      "path": "mods/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+      "size": 188673,
+      "sha256": "4f641e4e204315a55b3f5a33e3039076ba08c95b68ac9280ea0081fb27470c13",
+      "url": "https://edge.forgecdn.net/files/7221/527/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 689467,
+        "file_id": 7221527
+      }
+    },
+    {
+      "path": "mods/pamhc2trees-1.20-1.0.2.jar",
+      "size": 777303,
+      "sha256": "69e0c722c786b78aea299e7faf27991e6533a671a66f281fb5ced279eb31b0dd",
+      "url": "https://edge.forgecdn.net/files/4625/518/pamhc2trees-1.20-1.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 365460,
+        "file_id": 4625518
+      }
+    },
+    {
+      "path": "mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+      "size": 864398,
+      "sha256": "1595c586e9c3e7e9a455d23b1686cc82f8d9e11578efd86a10a7031995301390",
+      "url": "https://edge.forgecdn.net/files/6245/108/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 975460,
+        "file_id": 6245108
+      }
+    },
+    {
+      "path": "mods/particlerain-4.0.0-beta.10+1.20.1-forge.jar",
+      "size": 1239956,
+      "sha256": "84b9fa953a77a88b69e9fa80442f4e3c5c92bace4467b014f8128a1128707b7c",
+      "url": "https://edge.forgecdn.net/files/8055/453/particlerain-4.0.0-beta.10+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 421897,
+        "file_id": 8055453
+      }
+    },
+    {
+      "path": "mods/perfectplushies-forge-1.20.1-1.13.3.jar",
+      "size": 437616,
+      "sha256": "0006b6989d3959207f2eb7d5952d61c6f48b11ac9b417a9a07f399c30eb0ce51",
+      "url": "https://edge.forgecdn.net/files/6675/233/perfectplushies-forge-1.20.1-1.13.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 867232,
+        "file_id": 6675233
+      }
+    },
+    {
+      "path": "mods/pipez-forge-1.20.1-1.2.21.jar",
+      "size": 431585,
+      "sha256": "4ace663c812e3af58106f6956443a0d5d1504c9afb262db49a633571d54bf1ee",
+      "url": "https://edge.forgecdn.net/files/6368/313/pipez-forge-1.20.1-1.2.21.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 443900,
+        "file_id": 6368313
+      }
+    },
+    {
+      "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "size": 181437,
+      "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691",
+      "url": "https://edge.forgecdn.net/files/4587/214/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 658587,
+        "file_id": 4587214
+      }
+    },
+    {
+      "path": "mods/plonk-1.20.1-10.0.5-forge.jar",
+      "size": 151684,
+      "sha256": "3f1a8cff6c6be95fdc81917f4f296b9e6a513803a33c3ddc20c402f0cfc7b9da",
+      "url": "https://edge.forgecdn.net/files/5095/685/plonk-1.20.1-10.0.5-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 345779,
+        "file_id": 5095685
+      }
+    },
+    {
+      "path": "mods/polylib-forge-2000.0.3-build.143.jar",
+      "size": 1343694,
+      "sha256": "abf42a3240b083fc96b9c022a049323cd4130844fcef338e1ab8b2cd6502a04b",
+      "url": "https://edge.forgecdn.net/files/5350/440/polylib-forge-2000.0.3-build.143.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 576589,
+        "file_id": 5350440
+      }
+    },
+    {
+      "path": "mods/ponderjs-1.20.1-2.1.0.jar",
+      "size": 2285835,
+      "sha256": "a3d42dcd63133b7542599b5e12ecb67e0719ea19dc28a1f3e3365a1ad7df5978",
+      "url": "https://edge.forgecdn.net/files/7188/949/ponderjs-1.20.1-2.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 622888,
+        "file_id": 7188949
+      }
+    },
+    {
+      "path": "mods/portable_blueprints-v2.0.11-mv1.20.1.jar",
+      "size": 946103,
+      "sha256": "7c9ef65c95f67cb2343d0b91d063d72c742e0adf6421bdb4a8d1b3985da17534",
+      "url": "https://edge.forgecdn.net/files/7714/110/portable_blueprints-v2.0.11-mv1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1231499,
+        "file_id": 7714110
+      }
+    },
+    {
+      "path": "mods/portfolio-1.20.1-1.5.0-forge.jar",
+      "size": 460118,
+      "sha256": "199127fe30d415af18d361a327860ed93da179154e22f5561243c2861c4ee577",
+      "url": "https://edge.forgecdn.net/files/7102/154/portfolio-1.20.1-1.5.0-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 851131,
+        "file_id": 7102154
+      }
+    },
+    {
+      "path": "mods/powerfuljs-1.6.1.jar",
+      "size": 731791,
+      "sha256": "5ef42f7b9e1ac85fb5b87c2a25c1077900b95ceed4004b1cb953f1e4ac432c4c",
+      "url": "https://edge.forgecdn.net/files/4951/461/powerfuljs-1.6.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 819845,
+        "file_id": 4951461
+      }
+    },
+    {
+      "path": "mods/puffish_attributes-0.7.2-1.20-forge.jar",
+      "size": 228642,
+      "sha256": "c5155f125d6eee939af10cd35f00b8468c7ea6a7bcbda419cc51b098e1351eb5",
+      "url": "https://edge.forgecdn.net/files/6157/71/puffish_attributes-0.7.2-1.20-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 991341,
+        "file_id": 6157071
+      }
+    },
+    {
+      "path": "mods/puffish_skills-0.16.1-1.20-forge.jar",
+      "size": 571979,
+      "sha256": "9c2e585b99a94f1a8b8e0771ed81f68449c7d8878a3d6385abf271a7318b3a94",
+      "url": "https://edge.forgecdn.net/files/6614/501/puffish_skills-0.16.1-1.20-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 835091,
+        "file_id": 6614501
+      }
+    },
+    {
+      "path": "mods/quality_food-1.20.1-2.4.3-all.jar",
+      "size": 916288,
+      "sha256": "a5b88a6d591441157015970df4e7eb0a52bffdd267faade3183f063bf22387d8",
+      "url": "https://edge.forgecdn.net/files/8694/434/quality_food-1.20.1-2.4.3-all.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 973932,
+        "file_id": 8694434
+      }
+    },
+    {
+      "path": "mods/questsadditions-1.4.7.jar",
+      "size": 112015,
+      "sha256": "c0914e53b3545972f1b81511a00363d724da209af290a0fda301836bc5b3f2ba",
+      "url": "https://edge.forgecdn.net/files/6004/490/questsadditions-1.4.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 580129,
+        "file_id": 6004490
+      }
+    },
+    {
+      "path": "mods/radiantgear-forge-2.2.0+1.20.1.jar",
+      "size": 47170,
+      "sha256": "2a6c7e0825c69bd38dc1bb1ce8a8d6b097cac835e16e46afaa0f207fb819bb96",
+      "url": "https://edge.forgecdn.net/files/6029/352/radiantgear-forge-2.2.0+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 602199,
+        "file_id": 6029352
+      }
+    },
+    {
+      "path": "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "size": 713454,
+      "sha256": "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0",
+      "url": "https://edge.forgecdn.net/files/5706/69/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 570017,
+        "file_id": 5706069
+      }
+    },
+    {
+      "path": "mods/rainbowoaks-forge-1.20-1.0.0.jar",
+      "size": 2119903,
+      "sha256": "5b5230cc74a628128fd6176580ea912fb269685478231b70d7f53329e6e5ed89",
+      "url": "https://edge.forgecdn.net/files/5167/239/rainbowoaks-forge-1.20-1.0.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 984099,
+        "file_id": 5167239
+      }
+    },
+    {
+      "path": "mods/recipeessentials-1.20.1-4.0.jar",
+      "size": 50739,
+      "sha256": "eb0ff236212f83cfb04b39c72678282a1b964a5cfcb0cecb314e953f03347f14",
+      "url": "https://edge.forgecdn.net/files/6165/709/recipeessentials-1.20.1-4.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 907856,
+        "file_id": 6165709
+      }
+    },
+    {
+      "path": "mods/refinedstorage-1.12.4.jar",
+      "size": 3300191,
+      "sha256": "d8ae3926c2121336efcd6956c43d91f21ce405b77ac7c7201c559d4c19f380d2",
+      "url": "https://edge.forgecdn.net/files/4844/585/refinedstorage-1.12.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 243076,
+        "file_id": 4844585
+      }
+    },
+    {
+      "path": "mods/refinedstorageaddons-0.10.0.jar",
+      "size": 33771,
+      "sha256": "8371fe7932e88e3dd06401fd921a6ab2c52913287bd8994b096e47655c664491",
+      "url": "https://edge.forgecdn.net/files/4626/171/refinedstorageaddons-0.10.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 272302,
+        "file_id": 4626171
+      }
+    },
+    {
+      "path": "mods/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+      "size": 6689588,
+      "sha256": "480546202aa21fa07e6b1571f3e3263e5690e9804afb7c35984642bcf473bc6e",
+      "url": "https://edge.forgecdn.net/files/7110/922/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 897116,
+        "file_id": 7110922
+      }
+    },
+    {
+      "path": "mods/rehooked-1.8.3-1.20.1.jar",
+      "size": 241055,
+      "sha256": "8f034c8549d5311c2ca1b67dec96f4740e243b5657a9ee5124a1f86b2877b60d",
+      "url": "https://edge.forgecdn.net/files/6341/96/rehooked-1.8.3-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1096531,
+        "file_id": 6341096
+      }
+    },
+    {
+      "path": "mods/relics-1.20.1-0.8.0.11.jar",
+      "size": 1518437,
+      "sha256": "eb67ef6da9631cac1ccacb542dce3e03f3f5f3594acb5f88647efc2cd8f8b15a",
+      "url": "https://edge.forgecdn.net/files/6976/293/relics-1.20.1-0.8.0.11.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 445274,
+        "file_id": 6976293
+      }
+    },
+    {
+      "path": "mods/remi-forge-1.20.1-4.6.8.jar",
+      "size": 919492,
+      "sha256": "9ead8e6c77fa92731418edbadbcd51fdea506e5e7317d2e288ce6f9cc67b004f",
+      "url": "https://edge.forgecdn.net/files/8812/535/remi-forge-1.20.1-4.6.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1411826,
+        "file_id": 8812535
+      }
+    },
+    {
+      "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "size": 136923,
+      "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded",
+      "url": "https://edge.forgecdn.net/files/6231/176/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 714059,
+        "file_id": 6231176
+      }
+    },
+    {
+      "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "size": 432753,
+      "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
+      "url": "https://edge.forgecdn.net/files/5659/871/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 570073,
+        "file_id": 5659871
+      }
+    },
+    {
+      "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+      "size": 1798244,
+      "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+      "url": "https://edge.forgecdn.net/files/6186/971/rhino-forge-2001.2.3-build.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 416294,
+        "file_id": 6186971
+      }
+    },
+    {
+      "path": "mods/rottencreatures-forge-1.20.1-1.1.0.jar",
+      "size": 2595007,
+      "sha256": "cbf97ceeb4378b493884fc49fb668098edaca135dad81db548dea6f4c324e81b",
+      "url": "https://edge.forgecdn.net/files/6336/745/rottencreatures-forge-1.20.1-1.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 371033,
+        "file_id": 6336745
+      }
+    },
+    {
+      "path": "mods/sawmill-1.20-1.4.10.jar",
+      "size": 644298,
+      "sha256": "ca4bc6242f34d717e1e089480349547338db4ce7a9a4d039781ca8dbc63cc206",
+      "url": "https://edge.forgecdn.net/files/6948/522/sawmill-1.20-1.4.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 964817,
+        "file_id": 6948522
+      }
+    },
+    {
+      "path": "mods/scholar-1.20.1-1.2.5.1-forge.jar",
+      "size": 849896,
+      "sha256": "4442f7afe1bbbb2b3eb06b9dc2860e296f1f8c24f3bfb3e1255df6304da5452d",
+      "url": "https://edge.forgecdn.net/files/8613/699/scholar-1.20.1-1.2.5.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 961802,
+        "file_id": 8613699
+      }
+    },
+    {
+      "path": "mods/seasonhud-forge-1.20.1-2.0.4.jar",
+      "size": 236181,
+      "sha256": "ff8516e9f5f23e6154ace0f4fb8614cc927a5d7443f3eacc938af421b21e26a6",
+      "url": "https://edge.forgecdn.net/files/7887/78/seasonhud-forge-1.20.1-2.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 690971,
+        "file_id": 7887078
+      }
+    },
+    {
+      "path": "mods/selectivebounds-forge-1.20.1-0.0.2.jar",
+      "size": 187000,
+      "sha256": "b515cbda37fe547bba5b1a3c5864909e9972fae1fa7f34fcd757c4861b3a489b",
+      "url": "https://edge.forgecdn.net/files/6491/455/selectivebounds-forge-1.20.1-0.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1179699,
+        "file_id": 6491455
+      }
+    },
+    {
+      "path": "mods/sereneseasonsfix-1.20.1-1.2.0.jar",
+      "size": 19299,
+      "sha256": "a8f61e28777b954ae566d04c85ec952e0a435bc28804b3b3f8a66ceeb016b52f",
+      "url": "https://edge.forgecdn.net/files/7632/353/sereneseasonsfix-1.20.1-1.2.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1462779,
+        "file_id": 7632353
+      }
+    },
+    {
+      "path": "mods/serializer_debug-1.0.1.jar",
+      "size": 400461,
+      "sha256": "fe77df10d803e08c95b9d47608444982629d2a426d1f74ac41ec569eb8fe96a8",
+      "url": "https://edge.forgecdn.net/files/6028/801/serializer_debug-1.0.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1166778,
+        "file_id": 6028801
+      }
+    },
+    {
+      "path": "mods/serverconfigupdater-4.0.2.jar",
+      "size": 14142,
+      "sha256": "2d8d719ed6a0ec549a225a9053583d3d3063738b24d89a36a6c8e239d76064bd",
+      "url": "https://edge.forgecdn.net/files/4612/683/serverconfigupdater-4.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 365281,
+        "file_id": 4612683
+      }
+    },
+    {
+      "path": "mods/servercore-forge-1.5.2+1.20.1.jar",
+      "size": 1508496,
+      "sha256": "d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586",
+      "url": "https://edge.forgecdn.net/files/5929/264/servercore-forge-1.5.2+1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 550579,
+        "file_id": 5929264
+      }
+    },
+    {
+      "path": "mods/simplehats-forge-1.20.1-0.3.2.jar",
+      "size": 1413531,
+      "sha256": "86758bd8151a2b8ee95151abdc442250fe359c63aa1702cee2b71ce086a32a93",
+      "url": "https://edge.forgecdn.net/files/5603/815/simplehats-forge-1.20.1-0.3.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 631990,
+        "file_id": 5603815
+      }
+    },
+    {
+      "path": "mods/simplemagnets-1.1.12-forge-mc1.20.1.jar",
+      "size": 140496,
+      "sha256": "afca53950383e2e8f955f24851195ecb29762efe765bac297beb3590ae1207cb",
+      "url": "https://edge.forgecdn.net/files/5828/475/simplemagnets-1.1.12-forge-mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 394140,
+        "file_id": 5828475
+      }
+    },
+    {
+      "path": "mods/simplerecall-1.0.6-1.20.1.jar",
+      "size": 16629,
+      "sha256": "7ff9822b99ae47cc923589fad65d4f296f3da7bf98a662975410599263da5f43",
+      "url": "https://edge.forgecdn.net/files/7952/794/simplerecall-1.0.6-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1234653,
+        "file_id": 7952794
+      }
+    },
+    {
+      "path": "mods/skillsexpnotifier-5.4.1-SNAPSHOT.jar",
+      "size": 42109,
+      "sha256": "d6a0ca926ad041190b1264d823fabd2071d1ccd7f4b4076d9cf8add23f4d7b65",
+      "url": "https://edge.forgecdn.net/files/6713/691/skillsexpnotifier-5.4.1-SNAPSHOT.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1290362,
+        "file_id": 6713691
+      }
+    },
+    {
+      "path": "mods/smallships-forge-1.20.1-2.0.0-b1.4.jar",
+      "size": 1816687,
+      "sha256": "f79a4dcab3e1c8e4d14467cbfa655f4a16e0f0d0901e8f9bde9e3f5e36735eff",
+      "url": "https://edge.forgecdn.net/files/5566/900/smallships-forge-1.20.1-2.0.0-b1.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 450659,
+        "file_id": 5566900
+      }
+    },
+    {
+      "path": "mods/snowpig-1.20.1-6.0.3.jar",
+      "size": 7133502,
+      "sha256": "4101e6e136568d383fe74d51c43a383ce04055fe82a038be818cc13fb5600178",
+      "url": "https://edge.forgecdn.net/files/5301/670/snowpig-1.20.1-6.0.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 410500,
+        "file_id": 5301670
+      }
+    },
+    {
+      "path": "mods/snowyspirit-1.20-3.0.10.jar",
+      "size": 5362591,
+      "sha256": "7de7c0b4b397b5675279c9c7bae630e27eb3dc4754ae7a268c59d3f24eb58138",
+      "url": "https://edge.forgecdn.net/files/5928/29/snowyspirit-1.20-3.0.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 566142,
+        "file_id": 5928029
+      }
+    },
+    {
+      "path": "mods/snuffles-1.2.0.1.jar",
+      "size": 228158,
+      "sha256": "78ad91be8521a13691a9d6a305293565dc8d6d3eb7b3a14f0d60a7126acd446b",
+      "url": "https://edge.forgecdn.net/files/7449/738/snuffles-1.2.0.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 556372,
+        "file_id": 7449738
+      }
+    },
+    {
+      "path": "mods/society-1.22.jar",
+      "size": 69954758,
+      "sha256": "1fca9851bab5415de3477d5814eb32d2ed3ad5b6ee21a83445b169f75ea31f04",
+      "url": "https://edge.forgecdn.net/files/8684/561/society-1.22.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1424785,
+        "file_id": 8684561
+      }
+    },
+    {
+      "path": "mods/society_trading-1.2.9.jar",
+      "size": 223387,
+      "sha256": "95c6a6b616ab6a0edfbc012c917845b7a3493dbf127a583591510a1f4da6ffab",
+      "url": "https://edge.forgecdn.net/files/8757/714/society_trading-1.2.9.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1347329,
+        "file_id": 8757714
+      }
+    },
+    {
+      "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "size": 511601,
+      "sha256": "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4",
+      "url": "https://edge.forgecdn.net/files/6044/481/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 551736,
+        "file_id": 6044481
+      }
+    },
+    {
+      "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "size": 443978,
+      "sha256": "37ec0b6248f04e856e6e5ba2066c4ded9981ce128282a9b45cdb10b67b9c8415",
+      "url": "https://edge.forgecdn.net/files/6100/812/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1103431,
+        "file_id": 6100812
+      }
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.24.60.1982.jar",
+      "size": 1130746,
+      "sha256": "e53c700974de9924e1f93db70dd7b4baf58cd599d35bddfe46b799a04451f7e3",
+      "url": "https://edge.forgecdn.net/files/8434/160/sophisticatedbackpacks-1.20.1-3.24.60.1982.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 422301,
+        "file_id": 8434160
+      }
+    },
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.3.71.2181.jar",
+      "size": 1622529,
+      "sha256": "9e8d5c6940b90985aabfb95452ae6d1249882d6eab47ee0bf4c621cd03128c32",
+      "url": "https://edge.forgecdn.net/files/8467/444/sophisticatedcore-1.20.1-1.3.71.2181.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 618298,
+        "file_id": 8467444
+      }
+    },
+    {
+      "path": "mods/sophisticatedstorage-1.20.1-1.4.74.1997.jar",
+      "size": 1818347,
+      "sha256": "426300d5136815cf537b2d2fe949c7d7b9acfd8ef0700dfb4bc425348f81ce95",
+      "url": "https://edge.forgecdn.net/files/8467/484/sophisticatedstorage-1.20.1-1.4.74.1997.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 619320,
+        "file_id": 8467484
+      }
+    },
+    {
+      "path": "mods/sophisticatedstoragecreateintegration-1.20.1-0.1.22.190.jar",
+      "size": 129598,
+      "sha256": "3662287781c202e3d8c5a214d4824895be0c2a2d877321b8b91116c5fbebbe16",
+      "url": "https://edge.forgecdn.net/files/8434/199/sophisticatedstoragecreateintegration-1.20.1-0.1.22.190.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1226755,
+        "file_id": 8434199
+      }
+    },
+    {
+      "path": "mods/spark-1.10.53-forge.jar",
+      "size": 3114590,
+      "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed",
+      "url": "https://edge.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 361579,
+        "file_id": 4738952
+      }
+    },
+    {
+      "path": "mods/species-3.5.jar",
+      "size": 42114388,
+      "sha256": "60cdc79387a14440d199dd217fe24edd6cd68d865460ee48e944d4bb0d78b23f",
+      "url": "https://edge.forgecdn.net/files/6886/321/species-3.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 857737,
+        "file_id": 6886321
+      }
+    },
+    {
+      "path": "mods/splendid_slimes-0.20.5.jar",
+      "size": 511858,
+      "sha256": "4cf54ff2b4e0022cb37e7dc5f6732dc099d0978131739e44e5b81b12d67cd3f8",
+      "url": "https://edge.forgecdn.net/files/8602/382/splendid_slimes-0.20.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1240935,
+        "file_id": 8602382
+      }
+    },
+    {
+      "path": "mods/squidnoglitch-mc1.20.1-v1.0.3-forge.jar",
+      "size": 87910,
+      "sha256": "0acf0ceed94a35237b7b7a9e98ef33977b473a39a3a98bd11d81e604a1618934",
+      "url": "https://edge.forgecdn.net/files/5345/186/squidnoglitch-mc1.20.1-v1.0.3-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 923510,
+        "file_id": 5345186
+      }
+    },
+    {
+      "path": "mods/stardew_fishing-3.7-1.20.1.jar",
+      "size": 1339256,
+      "sha256": "42b26d951d6abbf88ad65c53ed07951cde92ec53e13630719cab15806ce91f0c",
+      "url": "https://edge.forgecdn.net/files/8070/773/stardew_fishing-3.7-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1066037,
+        "file_id": 8070773
+      }
+    },
+    {
+      "path": "mods/structureessentials-1.20.1-4.8.jar",
+      "size": 63134,
+      "sha256": "fdc7cdf075d4d32bbc96760be0695aee88d0e635eeab5da3e2e7777cb08135c3",
+      "url": "https://edge.forgecdn.net/files/6732/854/structureessentials-1.20.1-4.8.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 832882,
+        "file_id": 6732854
+      }
+    },
+    {
+      "path": "mods/structurify-forge-1.0.21+mc1.20.1.jar",
+      "size": 789793,
+      "sha256": "73fc1c9bf04532dd291093f3531c7881783efa8f0a9a9dc5c317b9f8d75a3ee6",
+      "url": "https://edge.forgecdn.net/files/6858/579/structurify-forge-1.0.21+mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1087551,
+        "file_id": 6858579
+      }
+    },
+    {
+      "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "size": 206584,
+      "sha256": "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3",
+      "url": "https://edge.forgecdn.net/files/4715/408/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 438332,
+        "file_id": 4715408
+      }
+    },
+    {
+      "path": "mods/supermartijn642corelib-1.1.19-forge-mc1.20.1.jar",
+      "size": 516246,
+      "sha256": "1e4f8b3cad5afc512f4c750424ab7bf9ba38777c7090cad9e6241cadf2f71fea",
+      "url": "https://edge.forgecdn.net/files/7426/391/supermartijn642corelib-1.1.19-forge-mc1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 454372,
+        "file_id": 7426391
+      }
+    },
+    {
+      "path": "mods/supplementaries-1.20-3.1.43-forge.jar",
+      "size": 13667742,
+      "sha256": "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a",
+      "url": "https://edge.forgecdn.net/files/7884/611/supplementaries-1.20-3.1.43-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 412082,
+        "file_id": 7884611
+      }
+    },
+    {
+      "path": "mods/tanukidecor-20.1.1.0.jar",
+      "size": 3012590,
+      "sha256": "82d0b4911bab7e7661fea039956fe606ce8e4c4cbcec2499e58b231c4b336a21",
+      "url": "https://edge.forgecdn.net/files/5139/65/tanukidecor-20.1.1.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 953094,
+        "file_id": 5139065
+      }
+    },
+    {
+      "path": "mods/titanium-1.20.1-3.8.32.jar",
+      "size": 622068,
+      "sha256": "75461182a955b149104d760db908af832da5e1ae1fbabf09d23cd40701d15f02",
+      "url": "https://edge.forgecdn.net/files/5468/426/titanium-1.20.1-3.8.32.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 287342,
+        "file_id": 5468426
+      }
+    },
+    {
+      "path": "mods/toofast-1.20-0.4.3.5.jar",
+      "size": 3875,
+      "sha256": "5dc0fc5687c43ad9cec522ebb6eda9d9c84edc5b0c401721e91450b1ef57de5a",
+      "url": "https://edge.forgecdn.net/files/4627/738/toofast-1.20-0.4.3.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 550678,
+        "file_id": 4627738
+      }
+    },
+    {
+      "path": "mods/tooltipoverhaul-forge-1.20.1-1.5.0.jar",
+      "size": 573562,
+      "sha256": "73cc5e80fa607f3434881f76d18a373abd678c5e1d65d861087dc70de32e3e6e",
+      "url": "https://edge.forgecdn.net/files/8368/399/tooltipoverhaul-forge-1.20.1-1.5.0.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1327508,
+        "file_id": 8368399
+      }
+    },
+    {
+      "path": "mods/torchmaster-20.1.9.jar",
+      "size": 119348,
+      "sha256": "7c8984a2dc11c29147d0677958e9146a18578068bc00fbfcb1cddbaa60557682",
+      "url": "https://edge.forgecdn.net/files/5849/456/torchmaster-20.1.9.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 254268,
+        "file_id": 5849456
+      }
+    },
+    {
+      "path": "mods/trashslot-forge-1.20.1-15.1.3.jar",
+      "size": 117939,
+      "sha256": "7e088be8bd496dc46cfa563d022e3a59615ab76e68475ef7dc2ec6452631f56c",
+      "url": "https://edge.forgecdn.net/files/7364/652/trashslot-forge-1.20.1-15.1.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 235577,
+        "file_id": 7364652
+      }
+    },
+    {
+      "path": "mods/trofers-forge-5.0.2.jar",
+      "size": 252600,
+      "sha256": "9562fd58639f8e135bb26f888522092c051f8bc3656a8418246c75dbe747eddc",
+      "url": "https://edge.forgecdn.net/files/5259/4/trofers-forge-5.0.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 482265,
+        "file_id": 5259004
+      }
+    },
+    {
+      "path": "mods/untitledduckmod-1.5.2-forge-1.20.1.jar",
+      "size": 303415,
+      "sha256": "8d7186db4c3505f58feb2c8c90eccc35d3dc4ae0307d660369b5dfb7ad313b3d",
+      "url": "https://edge.forgecdn.net/files/7570/11/untitledduckmod-1.5.2-forge-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 451789,
+        "file_id": 7570011
+      }
+    },
+    {
+      "path": "mods/unusualfishmod-1.1.10.jar",
+      "size": 5047780,
+      "sha256": "08528074c3abcfbec28f9ce36b7ffa8c2ac3d3bac53f827e725fa46a99654ed8",
+      "url": "https://edge.forgecdn.net/files/8084/434/unusualfishmod-1.1.10.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 568300,
+        "file_id": 8084434
+      }
+    },
+    {
+      "path": "mods/verdantvibes-1.0.3-1.20.1.jar",
+      "size": 312114,
+      "sha256": "f227d6ae2d7e39f6aca6851f80d2f25bd45b0ca1fe69537247551c1c538bab73",
+      "url": "https://edge.forgecdn.net/files/4903/601/verdantvibes-1.0.3-1.20.1.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 917969,
+        "file_id": 4903601
+      }
+    },
+    {
+      "path": "mods/via_romana-2.2.2+1.20.1-forge.jar",
+      "size": 1246319,
+      "sha256": "9fbc32da24deeaab90e03ce3145368786f9fe45897a1b5077f7b06f90f90f7fe",
+      "url": "https://edge.forgecdn.net/files/7427/731/via_romana-2.2.2+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1026508,
+        "file_id": 7427731
+      }
+    },
+    {
+      "path": "mods/vintagedelight-0.1.6.jar",
+      "size": 1120218,
+      "sha256": "f3645fcf42546edb5fe09bee833f2e7524dd93b9b5380ecae3d3aa2847a4c9db",
+      "url": "https://edge.forgecdn.net/files/5847/856/vintagedelight-0.1.6.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 949719,
+        "file_id": 5847856
+      }
+    },
+    {
+      "path": "mods/visual_keybinder-1.20.1 - 0.1.7.jar",
+      "size": 94833,
+      "sha256": "4e8a42735b75d3ffedf8b00673e70771f9e57d2b46c39ce26e85033a6e996a9d",
+      "url": "https://edge.forgecdn.net/files/6197/443/visual_keybinder-1.20.1%20-%200.1.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1020759,
+        "file_id": 6197443
+      }
+    },
+    {
+      "path": "mods/voicechat-forge-1.20.1-2.6.22.jar",
+      "size": 4923439,
+      "sha256": "727d31c11905be6af05686c619dd62a1ed4e451c47670cf5e9804c1ac8871386",
+      "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/S11m0QIb/voicechat-forge-1.20.1-2.6.22.jar",
+      "policy": "replace"
+    },
+    {
+      "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.20.jar",
+      "size": 254657,
+      "sha256": "d5d5177ac084bb8650b38e43e61b8a9b0724ba8d26708b77f8bb7a173e97e387",
+      "url": "https://edge.forgecdn.net/files/7005/578/waterframes-FORGE-mc1.20.1-v2.1.20.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 834607,
+        "file_id": 7005578
+      }
+    },
+    {
+      "path": "mods/watermedia-2.1.34.jar",
+      "size": 37857681,
+      "sha256": "a2d1dab12f388f31e9f23c46322923b2ebaf5af309baacc9a2387113252bc7f3",
+      "url": "https://edge.forgecdn.net/files/6965/729/watermedia-2.1.34.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 869524,
+        "file_id": 6965729
+      }
+    },
+    {
+      "path": "mods/watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+      "size": 82079,
+      "sha256": "c04fb6d0996061c2e9d03efd2dd8eea6434355dfcb9618670bd52d632e00b90b",
+      "url": "https://edge.forgecdn.net/files/7021/437/watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1167473,
+        "file_id": 7021437
+      }
+    },
+    {
+      "path": "mods/watut-forge-1.20.1-1.2.3.jar",
+      "size": 435496,
+      "sha256": "19a7291187e1074dac0ade56f95cdb84936e8563c55afdc0b86c90ea7cd80a9e",
+      "url": "https://edge.forgecdn.net/files/6315/241/watut-forge-1.20.1-1.2.3.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 945479,
+        "file_id": 6315241
+      }
+    },
+    {
+      "path": "mods/waystones-forge-1.20.1-14.1.17.jar",
+      "size": 518286,
+      "sha256": "079aa58d6e95bee3caff622e10dcb6504efef43b803c7c21e2551201bd1ca78c",
+      "url": "https://edge.forgecdn.net/files/6856/603/waystones-forge-1.20.1-14.1.17.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 245755,
+        "file_id": 6856603
+      }
+    },
+    {
+      "path": "mods/whimsy_deco-1.2.jar",
+      "size": 538886,
+      "sha256": "49879cacfdc0dcc3ee758abf801b069a619bf9cab106946298744dc9c4169b8e",
+      "url": "https://edge.forgecdn.net/files/8579/611/whimsy_deco-1.2.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1351466,
+        "file_id": 8579611
+      }
+    },
+    {
+      "path": "mods/windswept-1.20.1-3.0.4.jar",
+      "size": 10295487,
+      "sha256": "79d3560c5231ea95196389c88a93dcf441a893e5fd8fa0155f62129a930a43c6",
+      "url": "https://edge.forgecdn.net/files/7515/974/windswept-1.20.1-3.0.4.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 636321,
+        "file_id": 7515974
+      }
+    },
+    {
+      "path": "mods/xlpackets-forge-1.20.1-1.0.5.jar",
+      "size": 17337,
+      "sha256": "963cece41e7752554e7230ffcfd96c5b4aec955866b46bf89b12b51f07f33423",
+      "url": "https://edge.forgecdn.net/files/5959/231/xlpackets-forge-1.20.1-1.0.5.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 962921,
+        "file_id": 5959231
+      }
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "size": 1105891,
+      "sha256": "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f",
+      "url": "https://edge.forgecdn.net/files/6336/646/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 667299,
+        "file_id": 6336646
+      }
+    },
+    {
+      "path": "mods/zetter-1.20.1-0.21.7.jar",
+      "size": 1343037,
+      "sha256": "5c165ba4b9d4dfde556b8303df2a141e120a8fce8e48a227b28dc695dfb1ed61",
+      "url": "https://edge.forgecdn.net/files/7236/701/zetter-1.20.1-0.21.7.jar",
+      "policy": "replace",
+      "origin": {
+        "project_id": 465532,
+        "file_id": 7236701
+      }
+    },
+    {
+      "path": "resourcepacks/Better_Cats_V0.09.zip",
+      "size": 1912874,
+      "sha256": "c647eb3397fc861178c49edde7c1f4edae957ca573c5ad25cd1e9a5f7fdf2437",
+      "url": "https://edge.forgecdn.net/files/4784/566/Better_Cats_V0.09.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 683123,
+        "file_id": 4784566
+      }
+    },
+    {
+      "path": "resourcepacks/Create Style for Refined Storage.zip",
+      "size": 1596551,
+      "sha256": "a680b86ac4bbb1fec4128ec6912fc4a2fb400459f3125f4518cb286e4d4d82eb",
+      "url": "https://edge.forgecdn.net/files/6168/001/Create%20Style%20for%20Refined%20Storage.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 941802,
+        "file_id": 6168001
+      }
+    },
+    {
+      "path": "resourcepacks/CreateSophBackpacks.zip",
+      "size": 557473,
+      "sha256": "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d",
+      "url": "https://edge.forgecdn.net/files/7707/479/CreateSophBackpacks.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 899330,
+        "file_id": 7707479
+      }
+    },
+    {
+      "path": "resourcepacks/DerpWood.zip",
+      "size": 835275,
+      "sha256": "e13f9ed3cb29b98bd434885bed30d91bbcc63258a613ea1906bb10c007817912",
+      "url": "https://edge.forgecdn.net/files/7831/789/DerpWood.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1317066,
+        "file_id": 7831789
+      }
+    },
+    {
+      "path": "resourcepacks/Fairy Wings Elytra.zip",
+      "size": 82334,
+      "sha256": "25296eec44a885dd5647b605ed45117486ab017056caf8e039d603ddf7a35ec8",
+      "url": "https://edge.forgecdn.net/files/6445/218/Fairy%20Wings%20Elytra.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1246471,
+        "file_id": 6445218
+      }
+    },
+    {
+      "path": "resourcepacks/Icon Journey 1.1.zip",
+      "size": 17646309,
+      "sha256": "6844a2be3544f35c9e61a53b64a6af6bccb9a4cd36bbaa5911a55c9d54f96d0e",
+      "url": "https://edge.forgecdn.net/files/5656/300/Icon%20Journey%201.1.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 978219,
+        "file_id": 5656300
+      }
+    },
+    {
+      "path": "resourcepacks/JadeStardewValleyTheme.zip",
+      "size": 15112,
+      "sha256": "caa4ab1ad7d6e8954c7f1f350a9afd060ad8347ac2f993236629429acec8561d",
+      "url": "https://edge.forgecdn.net/files/6155/118/JadeStardewValleyTheme.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 897337,
+        "file_id": 6155118
+      }
+    },
+    {
+      "path": "resourcepacks/JourneyMap Extended Mob Icons v2.0.zip",
+      "size": 65610,
+      "sha256": "f498366b7f4e3e633b68c253c8599419da7c1673e85ac9cc155a5ed6056f1c9e",
+      "url": "https://edge.forgecdn.net/files/5170/422/JourneyMap%20Extended%20Mob%20Icons%20v2.0.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 985057,
+        "file_id": 5170422
+      }
+    },
+    {
+      "path": "resourcepacks/Lopy-Create-Pipez.zip",
+      "size": 107979,
+      "sha256": "d95bd4e390a7edb25c8c82f00a3095464d11fec672a0df778529690e9a115358",
+      "url": "https://edge.forgecdn.net/files/4691/998/Lopy-Create-Pipez.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 901091,
+        "file_id": 4691998
+      }
+    },
+    {
+      "path": "resourcepacks/MobCrates_1.20.1_v1.zip",
+      "size": 391478,
+      "sha256": "60b8940e6c72552d98ec21bc8f761f0661a5c6e59e73c642de9ad34271c41d54",
+      "url": "https://edge.forgecdn.net/files/5560/59/MobCrates_1.20.1_v1.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1068335,
+        "file_id": 5560059
+      }
+    },
+    {
+      "path": "resourcepacks/SocietyCoins.zip",
+      "size": 10669,
+      "sha256": "385b2aad99d80e5b11f6c7ecb46fcaec116d2659d745488a73ec4cff74e9f5c0",
+      "url": "https://edge.forgecdn.net/files/8696/776/SocietyCoins.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1661835,
+        "file_id": 8696776
+      }
+    },
+    {
+      "path": "resourcepacks/Stardew_plaques v1.0.zip",
+      "size": 5552,
+      "sha256": "ccf77fa4e0fc5c0e089b75850ce6b57af57773dad5c5d8bbf47b56d0c30df3d5",
+      "url": "https://edge.forgecdn.net/files/5801/228/Stardew_plaques%20v1.0.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1119120,
+        "file_id": 5801228
+      }
+    },
+    {
+      "path": "resourcepacks/glow_up-1.5-1.20.1.zip",
+      "size": 382112,
+      "sha256": "b8e8ba7934d2f4234a3c2eddaf7824915845a2473869125a5956f6cbc96b2cf2",
+      "url": "https://edge.forgecdn.net/files/7456/429/glow_up-1.5-1.20.1.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1162010,
+        "file_id": 7456429
+      }
+    },
+    {
+      "path": "resourcepacks/longwing_nuker.zip",
+      "size": 7189,
+      "sha256": "3aa9e7797889b00ae63753318c21294ccb4a2f7e5fa72bb959dfafa5790f1eda",
+      "url": "https://edge.forgecdn.net/files/6868/450/longwing_nuker.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 1324038,
+        "file_id": 6868450
+      }
+    },
+    {
+      "path": "resourcepacks/updated_aquaculture-1.1.zip",
+      "size": 705425,
+      "sha256": "1a2f6758a475656779e50b4b60ff880efe2f5d7ab9b81a276400b7a65234a133",
+      "url": "https://edge.forgecdn.net/files/6392/870/updated_aquaculture-1.1.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 640645,
+        "file_id": 6392870
+      }
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+      "size": 500696,
+      "sha256": "33153747d25fbee470acb42ccf4f26b03cc551bb900d4c6d3389b5500dd84839",
+      "url": "https://edge.forgecdn.net/files/7090/226/ComplementaryReimagined_r5.6.1.zip",
+      "policy": "replace",
+      "origin": {
+        "project_id": 627557,
+        "file_id": 7090226
+      }
+    }
+  ],
+  "remove": []
+}
