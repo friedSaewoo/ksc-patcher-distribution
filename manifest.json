@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2026.10.19.2",
+  "version": "2026.10.19.3",
   "minecraft": "1.20.1",
   "forge": "47.4.0",
   "notes": "KSC 썬릿밸리 클라이언트: 공식 4.1.5A 모드·리소스 고정 + Emotecraft + Simple Voice Chat 2.6.22. 개인 키/음량/그래픽/마이크 설정은 보존합니다. 서버 음성 모드 적용 및 실제 통화 확인은 별도입니다.",
@@ -3785,8 +3785,8 @@
     {
       "path": "mods/voicechat-forge-1.20.1-2.6.22.jar",
       "size": 4923439,
-      "sha256": "727d31c11905be6af05686c619dd62a1ed4e451c47670cf5e9804c1ac8871386",
-      "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/S11m0QIb/voicechat-forge-1.20.1-2.6.22.jar",
+      "sha256": "f171e99fa99f007ef013af5306f6c490fe79a11be7e1b18940147d75ced045b9",
+      "url": "https://edge.forgecdn.net/files/8601/186/voicechat-forge-1.20.1-2.6.22.jar",
       "policy": "replace"
     },
     {
